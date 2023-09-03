@@ -1,4 +1,4 @@
-# Source Code For graphot
+# Source Code For OTGCN
 ## Paper: Population Graph Cross-Network Node Classification for Autism Detection Across Sample Groups
 
 ## Setup
