@@ -60,15 +60,15 @@ NOW_STR = datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f")
 
 
 OPTIONS = {
-    'learning_rate': 0.01,
-    'h1': 32, # dim of first hidden layer
-    'h2': 64, # dim of second hidden layer
+    'learning_rate': 0.005,
+    'h1': 64, # dim of first hidden layer
+    'h2': 32, # dim of second hidden layer
     'weight_decay': 5e-4,
     'dropout': 0.0, # check for overfitting first, if overfit then can increase
     'max_pretrain_epochs': 50,
-    'max_ot_epochs': 20,
-    'lambda': 0.03, # sinkhorn entropy regularization term
-    'theta': 5, # weight for OT loss
+    'max_ot_epochs': 15,
+    'lambda': 0.01, # sinkhorn entropy regularization term
+    'theta': 10, # weight for OT loss
     'clip': 5 # clip gradient
 }
 PRIV_GROUP = 1 # female=0, male=1

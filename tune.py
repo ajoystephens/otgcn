@@ -85,7 +85,7 @@ NOW_STR = datetime.now().strftime("%Y_%m_%d__%H_%M_%S_%f")
 
 # setup logging
 LOGGER_NAME = 'CV'
-LOG_FILEPATH = ('log/cv/'+TRANSFORMATION+'/'+SOURCE)
+LOG_FILEPATH = ('log/cv/'+SOURCE)
 # if TRANSFORMATION != 'None': LOG_FILEPATH += '_'+TRANSFORMATION
 if args.continue_previous == 0: 
     if os.path.exists(LOG_FILEPATH):
