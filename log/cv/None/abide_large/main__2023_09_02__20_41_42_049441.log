@@ -1,0 +1,2694 @@
+2023-09-02 20:41:42,049 - CV - INFO - ===== FILE SETUP =========================================================================
+2023-09-02 20:41:42,049 - CV - INFO - SOURCE: abide_large
+2023-09-02 20:41:42,049 - CV - INFO - N_FOLDS: 10
+2023-09-02 20:41:42,049 - CV - INFO - DEVICE: cuda
+2023-09-02 20:41:42,049 - CV - INFO - continue_previous: 0
+2023-09-02 20:41:42,049 - CV - INFO - ===== DONE FILE SETUP ====================================================================
+2023-09-02 20:41:42,049 - CV - INFO - ===== SETTING INITAL SEED ================================================================
+2023-09-02 20:41:42,049 - CV - INFO - SEED: 1
+2023-09-02 20:41:42,049 - CV - INFO - ===== DONE SETTING INITAL SEED ===========================================================
+2023-09-02 20:41:42,049 - CV - INFO - ===== COMPILING OPTION SET ===============================================================
+2023-09-02 20:41:42,049 - CV - INFO - 	learning_rate: [0.001, 0.005, 0.01]
+2023-09-02 20:41:42,049 - CV - INFO - 	h1: [64]
+2023-09-02 20:41:42,050 - CV - INFO - 	h2: [32]
+2023-09-02 20:41:42,050 - CV - INFO - 	weight_decay: [0.0005]
+2023-09-02 20:41:42,050 - CV - INFO - 	dropout: [0.0]
+2023-09-02 20:41:42,050 - CV - INFO - 	max_pretrain_epochs: [100]
+2023-09-02 20:41:42,050 - CV - INFO - 	max_ot_epochs: [50]
+2023-09-02 20:41:42,050 - CV - INFO - 	lambda: [0.01, 0.03, 0.05]
+2023-09-02 20:41:42,050 - CV - INFO - 	theta: [10, 30, 50]
+2023-09-02 20:41:42,050 - CV - INFO - 	clip: [5]
+2023-09-02 20:41:42,050 - CV - INFO - Total Sets: 27
+2023-09-02 20:41:42,050 - CV - INFO - ===== DONE COMPILING OPTION SET ==========================================================
+2023-09-02 20:41:42,050 - CV - INFO - ===== ASSIGNING FOLDS ====================================================================
+2023-09-02 20:41:42,051 - CV - INFO - Fold Assignment Shape: (804,)
+2023-09-02 20:41:42,051 - CV - INFO - Fold Assignment Counts: 
+{0: 96, 1: 77, 2: 83, 3: 75, 4: 72, 5: 78, 6: 87, 7: 87, 8: 70, 9: 79}
+2023-09-02 20:41:42,051 - CV - INFO - ===== DONE ASSIGNING FOLDS ===============================================================
+2023-09-02 20:41:42,051 - CV - INFO - ===== BEGINNING OPTION SET (001)==========================================================
+2023-09-02 20:41:42,051 - CV - INFO - 	done: False
+2023-09-02 20:41:42,051 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:41:42,051 - CV - INFO - 	h1: 64
+2023-09-02 20:41:42,051 - CV - INFO - 	h2: 32
+2023-09-02 20:41:42,051 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:41:42,051 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:41:42,051 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:41:42,051 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:41:42,051 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:41:42,051 - CV - INFO - 	theta: 10
+2023-09-02 20:41:42,051 - CV - INFO - 	clip: 5
+2023-09-02 20:41:42,051 - CV - INFO - ----- BEGINNING FOLD SET (001:0)----------------------------------------------------------
+2023-09-02 20:41:42,051 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/0
+2023-09-02 20:41:42,658 - CV - INFO - Begin Pretrain
+2023-09-02 20:41:43,297 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:41:43,297 - CV - INFO - Begin OT Train
+2023-09-02 20:41:47,482 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:41:47,532 - CV - INFO - fold time: 5.481086492538452s (0.09135144154230754m)
+2023-09-02 20:41:47,532 - CV - INFO - ----- BEGINNING FOLD SET (001:1)----------------------------------------------------------
+2023-09-02 20:41:47,534 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/1
+2023-09-02 20:41:47,637 - CV - INFO - Begin Pretrain
+2023-09-02 20:41:47,888 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:41:47,888 - CV - INFO - Begin OT Train
+2023-09-02 20:41:52,209 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:41:52,257 - CV - INFO - fold time: 4.724872350692749s (0.07874787251154582m)
+2023-09-02 20:41:52,257 - CV - INFO - ----- BEGINNING FOLD SET (001:2)----------------------------------------------------------
+2023-09-02 20:41:52,259 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/2
+2023-09-02 20:41:52,367 - CV - INFO - Begin Pretrain
+2023-09-02 20:41:52,633 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:41:52,633 - CV - INFO - Begin OT Train
+2023-09-02 20:41:57,099 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:41:57,149 - CV - INFO - fold time: 4.891479015350342s (0.08152465025583903m)
+2023-09-02 20:41:57,149 - CV - INFO - ----- BEGINNING FOLD SET (001:3)----------------------------------------------------------
+2023-09-02 20:41:57,150 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/3
+2023-09-02 20:41:57,250 - CV - INFO - Begin Pretrain
+2023-09-02 20:41:57,501 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:41:57,501 - CV - INFO - Begin OT Train
+2023-09-02 20:42:01,822 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:42:01,874 - CV - INFO - fold time: 4.725079536437988s (0.0787513256072998m)
+2023-09-02 20:42:01,874 - CV - INFO - ----- BEGINNING FOLD SET (001:4)----------------------------------------------------------
+2023-09-02 20:42:01,875 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/4
+2023-09-02 20:42:01,973 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:02,225 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:42:02,225 - CV - INFO - Begin OT Train
+2023-09-02 20:42:06,542 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:42:06,577 - CV - INFO - fold time: 4.70346212387085s (0.07839103539784749m)
+2023-09-02 20:42:06,577 - CV - INFO - ----- BEGINNING FOLD SET (001:5)----------------------------------------------------------
+2023-09-02 20:42:06,579 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/5
+2023-09-02 20:42:06,683 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:06,932 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:42:06,932 - CV - INFO - Begin OT Train
+2023-09-02 20:42:11,228 - CV - INFO - OT Train Complete, 21 epochs
+2023-09-02 20:42:11,264 - CV - INFO - fold time: 4.687039136886597s (0.07811731894810994m)
+2023-09-02 20:42:11,264 - CV - INFO - ----- BEGINNING FOLD SET (001:6)----------------------------------------------------------
+2023-09-02 20:42:11,266 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/6
+2023-09-02 20:42:11,378 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:11,631 - CV - INFO - Pretrain Complete, 99 epochs
+2023-09-02 20:42:11,631 - CV - INFO - Begin OT Train
+2023-09-02 20:42:15,808 - CV - INFO - OT Train Complete, 40 epochs
+2023-09-02 20:42:15,845 - CV - INFO - fold time: 4.580404043197632s (0.0763400673866272m)
+2023-09-02 20:42:15,845 - CV - INFO - ----- BEGINNING FOLD SET (001:7)----------------------------------------------------------
+2023-09-02 20:42:15,846 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/7
+2023-09-02 20:42:15,960 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:16,210 - CV - INFO - Pretrain Complete, 91 epochs
+2023-09-02 20:42:16,210 - CV - INFO - Begin OT Train
+2023-09-02 20:42:20,710 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:42:20,749 - CV - INFO - fold time: 4.90435266494751s (0.08173921108245849m)
+2023-09-02 20:42:20,749 - CV - INFO - ----- BEGINNING FOLD SET (001:8)----------------------------------------------------------
+2023-09-02 20:42:20,751 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/8
+2023-09-02 20:42:20,846 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:21,098 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:42:21,098 - CV - INFO - Begin OT Train
+2023-09-02 20:42:25,346 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:42:25,384 - CV - INFO - fold time: 4.6346657276153564s (0.07724442879358927m)
+2023-09-02 20:42:25,384 - CV - INFO - ----- BEGINNING FOLD SET (001:9)----------------------------------------------------------
+2023-09-02 20:42:25,385 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/001/9
+2023-09-02 20:42:25,491 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:25,740 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:42:25,740 - CV - INFO - Begin OT Train
+2023-09-02 20:42:29,959 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:42:29,997 - CV - INFO - fold time: 4.612902879714966s (0.0768817146619161m)
+2023-09-02 20:42:29,997 - CV - INFO - Mean Pretrain Epochs 85.8:
+2023-09-02 20:42:29,997 - CV - INFO - Mean OT Train Epochs 12.3:
+2023-09-02 20:42:29,997 - CV - INFO - Mean Val Macro F1 : 0.9536979932263066
+2023-09-02 20:42:29,997 - CV - INFO - Mean Eval Stat : 0.9536979932263066 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:42:29,997 - CV - INFO - NEW BEST SET! (0.9536979932263066)
+2023-09-02 20:42:29,997 - CV - INFO - set time: 47.945855379104614s (0.7990975896517436m)
+2023-09-02 20:42:29,997 - CV - INFO - script time so far: 47.9478919506073s (0.7991315325101217m) (0.013318858875168696h)
+2023-09-02 20:42:29,997 - CV - INFO - ===== BEGINNING OPTION SET (002)==========================================================
+2023-09-02 20:42:29,997 - CV - INFO - 	done: False
+2023-09-02 20:42:29,997 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:42:29,997 - CV - INFO - 	h1: 64
+2023-09-02 20:42:29,997 - CV - INFO - 	h2: 32
+2023-09-02 20:42:29,997 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:42:29,997 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:42:29,997 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:42:29,997 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:42:29,997 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:42:29,997 - CV - INFO - 	theta: 30
+2023-09-02 20:42:29,997 - CV - INFO - 	clip: 5
+2023-09-02 20:42:29,997 - CV - INFO - ----- BEGINNING FOLD SET (002:0)----------------------------------------------------------
+2023-09-02 20:42:29,999 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/0
+2023-09-02 20:42:30,120 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:30,368 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:42:30,368 - CV - INFO - Begin OT Train
+2023-09-02 20:42:34,594 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:42:34,632 - CV - INFO - fold time: 4.63526725769043s (0.0772544542948405m)
+2023-09-02 20:42:34,632 - CV - INFO - ----- BEGINNING FOLD SET (002:1)----------------------------------------------------------
+2023-09-02 20:42:34,634 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/1
+2023-09-02 20:42:34,736 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:34,988 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:42:34,988 - CV - INFO - Begin OT Train
+2023-09-02 20:42:39,209 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:42:39,242 - CV - INFO - fold time: 4.609532356262207s (0.07682553927103679m)
+2023-09-02 20:42:39,242 - CV - INFO - ----- BEGINNING FOLD SET (002:2)----------------------------------------------------------
+2023-09-02 20:42:39,243 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/2
+2023-09-02 20:42:39,352 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:39,601 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:42:39,601 - CV - INFO - Begin OT Train
+2023-09-02 20:42:43,952 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:42:43,986 - CV - INFO - fold time: 4.744318962097168s (0.07907198270161947m)
+2023-09-02 20:42:43,986 - CV - INFO - ----- BEGINNING FOLD SET (002:3)----------------------------------------------------------
+2023-09-02 20:42:43,988 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/3
+2023-09-02 20:42:44,088 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:44,338 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:42:44,338 - CV - INFO - Begin OT Train
+2023-09-02 20:42:48,542 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:42:48,577 - CV - INFO - fold time: 4.590614557266235s (0.07651024262110392m)
+2023-09-02 20:42:48,577 - CV - INFO - ----- BEGINNING FOLD SET (002:4)----------------------------------------------------------
+2023-09-02 20:42:48,578 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/4
+2023-09-02 20:42:48,676 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:48,926 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:42:48,926 - CV - INFO - Begin OT Train
+2023-09-02 20:42:52,995 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:42:53,040 - CV - INFO - fold time: 4.4634850025177s (0.07439141670862834m)
+2023-09-02 20:42:53,040 - CV - INFO - ----- BEGINNING FOLD SET (002:5)----------------------------------------------------------
+2023-09-02 20:42:53,042 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/5
+2023-09-02 20:42:53,146 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:53,395 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:42:53,395 - CV - INFO - Begin OT Train
+2023-09-02 20:42:57,667 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:42:57,704 - CV - INFO - fold time: 4.663261890411377s (0.07772103150685629m)
+2023-09-02 20:42:57,704 - CV - INFO - ----- BEGINNING FOLD SET (002:6)----------------------------------------------------------
+2023-09-02 20:42:57,705 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/6
+2023-09-02 20:42:57,819 - CV - INFO - Begin Pretrain
+2023-09-02 20:42:58,067 - CV - INFO - Pretrain Complete, 99 epochs
+2023-09-02 20:42:58,067 - CV - INFO - Begin OT Train
+2023-09-02 20:43:02,193 - CV - INFO - OT Train Complete, 41 epochs
+2023-09-02 20:43:02,230 - CV - INFO - fold time: 4.526620388031006s (0.0754436731338501m)
+2023-09-02 20:43:02,230 - CV - INFO - ----- BEGINNING FOLD SET (002:7)----------------------------------------------------------
+2023-09-02 20:43:02,232 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/7
+2023-09-02 20:43:02,345 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:02,596 - CV - INFO - Pretrain Complete, 91 epochs
+2023-09-02 20:43:02,596 - CV - INFO - Begin OT Train
+2023-09-02 20:43:06,858 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:43:06,896 - CV - INFO - fold time: 4.665796518325806s (0.07776327530543009m)
+2023-09-02 20:43:06,896 - CV - INFO - ----- BEGINNING FOLD SET (002:8)----------------------------------------------------------
+2023-09-02 20:43:06,898 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/8
+2023-09-02 20:43:06,993 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:07,246 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:43:07,246 - CV - INFO - Begin OT Train
+2023-09-02 20:43:11,489 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:43:11,526 - CV - INFO - fold time: 4.630320310592651s (0.07717200517654418m)
+2023-09-02 20:43:11,526 - CV - INFO - ----- BEGINNING FOLD SET (002:9)----------------------------------------------------------
+2023-09-02 20:43:11,528 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/002/9
+2023-09-02 20:43:11,633 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:11,904 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:43:11,905 - CV - INFO - Begin OT Train
+2023-09-02 20:43:15,999 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:43:16,035 - CV - INFO - fold time: 4.508187532424927s (0.07513645887374878m)
+2023-09-02 20:43:16,035 - CV - INFO - Mean Pretrain Epochs 85.8:
+2023-09-02 20:43:16,035 - CV - INFO - Mean OT Train Epochs 11.1:
+2023-09-02 20:43:16,035 - CV - INFO - Mean Val Macro F1 : 0.9461438299207842
+2023-09-02 20:43:16,035 - CV - INFO - Mean Eval Stat : 0.9461438299207842 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:43:16,035 - CV - INFO - set time: 46.03792595863342s (0.7672987659772237m)
+2023-09-02 20:43:16,035 - CV - INFO - script time so far: 93.98586177825928s (1.5664310296376547m) (0.026107183827294246h)
+2023-09-02 20:43:16,035 - CV - INFO - ===== BEGINNING OPTION SET (003)==========================================================
+2023-09-02 20:43:16,035 - CV - INFO - 	done: False
+2023-09-02 20:43:16,035 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:43:16,035 - CV - INFO - 	h1: 64
+2023-09-02 20:43:16,035 - CV - INFO - 	h2: 32
+2023-09-02 20:43:16,035 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:43:16,035 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:43:16,035 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:43:16,035 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:43:16,035 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:43:16,035 - CV - INFO - 	theta: 50
+2023-09-02 20:43:16,035 - CV - INFO - 	clip: 5
+2023-09-02 20:43:16,035 - CV - INFO - ----- BEGINNING FOLD SET (003:0)----------------------------------------------------------
+2023-09-02 20:43:16,036 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/0
+2023-09-02 20:43:16,159 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:16,457 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:43:16,457 - CV - INFO - Begin OT Train
+2023-09-02 20:43:20,669 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:43:20,704 - CV - INFO - fold time: 4.669169664382935s (0.07781949440638224m)
+2023-09-02 20:43:20,704 - CV - INFO - ----- BEGINNING FOLD SET (003:1)----------------------------------------------------------
+2023-09-02 20:43:20,706 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/1
+2023-09-02 20:43:20,808 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:21,059 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:43:21,059 - CV - INFO - Begin OT Train
+2023-09-02 20:43:25,194 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:43:25,234 - CV - INFO - fold time: 4.529694080352783s (0.07549490133921305m)
+2023-09-02 20:43:25,234 - CV - INFO - ----- BEGINNING FOLD SET (003:2)----------------------------------------------------------
+2023-09-02 20:43:25,235 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/2
+2023-09-02 20:43:25,346 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:25,595 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:43:25,595 - CV - INFO - Begin OT Train
+2023-09-02 20:43:29,761 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:43:29,796 - CV - INFO - fold time: 4.562089204788208s (0.07603482007980347m)
+2023-09-02 20:43:29,796 - CV - INFO - ----- BEGINNING FOLD SET (003:3)----------------------------------------------------------
+2023-09-02 20:43:29,798 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/3
+2023-09-02 20:43:29,898 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:30,149 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:43:30,149 - CV - INFO - Begin OT Train
+2023-09-02 20:43:34,277 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:43:34,315 - CV - INFO - fold time: 4.519502401351929s (0.07532504002253214m)
+2023-09-02 20:43:34,316 - CV - INFO - ----- BEGINNING FOLD SET (003:4)----------------------------------------------------------
+2023-09-02 20:43:34,317 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/4
+2023-09-02 20:43:34,416 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:34,667 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:43:34,667 - CV - INFO - Begin OT Train
+2023-09-02 20:43:38,729 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:43:38,762 - CV - INFO - fold time: 4.4467856884002686s (0.07411309480667114m)
+2023-09-02 20:43:38,762 - CV - INFO - ----- BEGINNING FOLD SET (003:5)----------------------------------------------------------
+2023-09-02 20:43:38,764 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/5
+2023-09-02 20:43:38,868 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:39,117 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:43:39,118 - CV - INFO - Begin OT Train
+2023-09-02 20:43:43,293 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:43:43,349 - CV - INFO - fold time: 4.586627721786499s (0.07644379536310832m)
+2023-09-02 20:43:43,349 - CV - INFO - ----- BEGINNING FOLD SET (003:6)----------------------------------------------------------
+2023-09-02 20:43:43,351 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/6
+2023-09-02 20:43:43,463 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:43,712 - CV - INFO - Pretrain Complete, 98 epochs
+2023-09-02 20:43:43,712 - CV - INFO - Begin OT Train
+2023-09-02 20:43:47,946 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:43:47,980 - CV - INFO - fold time: 4.631198167800903s (0.07718663613001506m)
+2023-09-02 20:43:47,980 - CV - INFO - ----- BEGINNING FOLD SET (003:7)----------------------------------------------------------
+2023-09-02 20:43:47,982 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/7
+2023-09-02 20:43:48,095 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:48,369 - CV - INFO - Pretrain Complete, 90 epochs
+2023-09-02 20:43:48,369 - CV - INFO - Begin OT Train
+2023-09-02 20:43:52,523 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:43:52,560 - CV - INFO - fold time: 4.5794172286987305s (0.07632362047831218m)
+2023-09-02 20:43:52,560 - CV - INFO - ----- BEGINNING FOLD SET (003:8)----------------------------------------------------------
+2023-09-02 20:43:52,561 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/8
+2023-09-02 20:43:52,656 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:52,908 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:43:52,908 - CV - INFO - Begin OT Train
+2023-09-02 20:43:57,116 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:43:57,148 - CV - INFO - fold time: 4.588418960571289s (0.07647364934285482m)
+2023-09-02 20:43:57,148 - CV - INFO - ----- BEGINNING FOLD SET (003:9)----------------------------------------------------------
+2023-09-02 20:43:57,150 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/003/9
+2023-09-02 20:43:57,255 - CV - INFO - Begin Pretrain
+2023-09-02 20:43:57,505 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:43:57,505 - CV - INFO - Begin OT Train
+2023-09-02 20:44:01,692 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:44:01,726 - CV - INFO - fold time: 4.57799220085144s (0.07629987001419067m)
+2023-09-02 20:44:01,726 - CV - INFO - Mean Pretrain Epochs 85.6:
+2023-09-02 20:44:01,726 - CV - INFO - Mean OT Train Epochs 7.6:
+2023-09-02 20:44:01,726 - CV - INFO - Mean Val Macro F1 : 0.9322212065918956
+2023-09-02 20:44:01,726 - CV - INFO - Mean Eval Stat : 0.9322212065918956 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:44:01,726 - CV - INFO - set time: 45.69141888618469s (0.7615236481030782m)
+2023-09-02 20:44:01,726 - CV - INFO - script time so far: 139.67732405662537s (2.327955400943756m) (0.038799256682395936h)
+2023-09-02 20:44:01,726 - CV - INFO - ===== BEGINNING OPTION SET (004)==========================================================
+2023-09-02 20:44:01,726 - CV - INFO - 	done: False
+2023-09-02 20:44:01,726 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:44:01,726 - CV - INFO - 	h1: 64
+2023-09-02 20:44:01,726 - CV - INFO - 	h2: 32
+2023-09-02 20:44:01,726 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:44:01,726 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:44:01,726 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:44:01,726 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:44:01,726 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:44:01,726 - CV - INFO - 	theta: 10
+2023-09-02 20:44:01,726 - CV - INFO - 	clip: 5
+2023-09-02 20:44:01,726 - CV - INFO - ----- BEGINNING FOLD SET (004:0)----------------------------------------------------------
+2023-09-02 20:44:01,728 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/0
+2023-09-02 20:44:01,850 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:02,097 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:44:02,097 - CV - INFO - Begin OT Train
+2023-09-02 20:44:06,136 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:44:06,169 - CV - INFO - fold time: 4.4423747062683105s (0.07403957843780518m)
+2023-09-02 20:44:06,169 - CV - INFO - ----- BEGINNING FOLD SET (004:1)----------------------------------------------------------
+2023-09-02 20:44:06,170 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/1
+2023-09-02 20:44:06,273 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:06,524 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:44:06,524 - CV - INFO - Begin OT Train
+2023-09-02 20:44:10,529 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:44:10,562 - CV - INFO - fold time: 4.393570184707642s (0.07322616974512736m)
+2023-09-02 20:44:10,562 - CV - INFO - ----- BEGINNING FOLD SET (004:2)----------------------------------------------------------
+2023-09-02 20:44:10,564 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/2
+2023-09-02 20:44:10,673 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:10,924 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:44:10,924 - CV - INFO - Begin OT Train
+2023-09-02 20:44:14,892 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:44:14,927 - CV - INFO - fold time: 4.364287853240967s (0.07273813088734944m)
+2023-09-02 20:44:14,927 - CV - INFO - ----- BEGINNING FOLD SET (004:3)----------------------------------------------------------
+2023-09-02 20:44:14,928 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/3
+2023-09-02 20:44:15,029 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:15,280 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:44:15,280 - CV - INFO - Begin OT Train
+2023-09-02 20:44:19,374 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:44:19,407 - CV - INFO - fold time: 4.480168342590332s (0.07466947237650554m)
+2023-09-02 20:44:19,407 - CV - INFO - ----- BEGINNING FOLD SET (004:4)----------------------------------------------------------
+2023-09-02 20:44:19,408 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/4
+2023-09-02 20:44:19,506 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:19,757 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:44:19,757 - CV - INFO - Begin OT Train
+2023-09-02 20:44:23,855 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:44:23,889 - CV - INFO - fold time: 4.4824793338775635s (0.07470798889795939m)
+2023-09-02 20:44:23,889 - CV - INFO - ----- BEGINNING FOLD SET (004:5)----------------------------------------------------------
+2023-09-02 20:44:23,891 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/5
+2023-09-02 20:44:23,995 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:24,244 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:44:24,244 - CV - INFO - Begin OT Train
+2023-09-02 20:44:28,117 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:44:28,148 - CV - INFO - fold time: 4.258642673492432s (0.07097737789154053m)
+2023-09-02 20:44:28,148 - CV - INFO - ----- BEGINNING FOLD SET (004:6)----------------------------------------------------------
+2023-09-02 20:44:28,150 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/6
+2023-09-02 20:44:28,263 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:28,512 - CV - INFO - Pretrain Complete, 99 epochs
+2023-09-02 20:44:28,512 - CV - INFO - Begin OT Train
+2023-09-02 20:44:32,466 - CV - INFO - OT Train Complete, 45 epochs
+2023-09-02 20:44:32,500 - CV - INFO - fold time: 4.351786851882935s (0.07252978086471558m)
+2023-09-02 20:44:32,500 - CV - INFO - ----- BEGINNING FOLD SET (004:7)----------------------------------------------------------
+2023-09-02 20:44:32,501 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/7
+2023-09-02 20:44:32,615 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:32,866 - CV - INFO - Pretrain Complete, 90 epochs
+2023-09-02 20:44:32,866 - CV - INFO - Begin OT Train
+2023-09-02 20:44:36,810 - CV - INFO - OT Train Complete, 34 epochs
+2023-09-02 20:44:36,844 - CV - INFO - fold time: 4.3436689376831055s (0.07239448229471843m)
+2023-09-02 20:44:36,844 - CV - INFO - ----- BEGINNING FOLD SET (004:8)----------------------------------------------------------
+2023-09-02 20:44:36,845 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/8
+2023-09-02 20:44:36,941 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:37,194 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:44:37,194 - CV - INFO - Begin OT Train
+2023-09-02 20:44:41,184 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:44:41,217 - CV - INFO - fold time: 4.373730421066284s (0.07289550701777141m)
+2023-09-02 20:44:41,217 - CV - INFO - ----- BEGINNING FOLD SET (004:9)----------------------------------------------------------
+2023-09-02 20:44:41,219 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/004/9
+2023-09-02 20:44:41,325 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:41,575 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:44:41,575 - CV - INFO - Begin OT Train
+2023-09-02 20:44:45,550 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:44:45,587 - CV - INFO - fold time: 4.369328260421753s (0.07282213767369589m)
+2023-09-02 20:44:45,587 - CV - INFO - Mean Pretrain Epochs 85.7:
+2023-09-02 20:44:45,587 - CV - INFO - Mean OT Train Epochs 13.5:
+2023-09-02 20:44:45,587 - CV - INFO - Mean Val Macro F1 : 0.9437091944143174
+2023-09-02 20:44:45,587 - CV - INFO - Mean Eval Stat : 0.9437091944143174 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:44:45,587 - CV - INFO - set time: 43.860551834106445s (0.7310091972351074m)
+2023-09-02 20:44:45,587 - CV - INFO - script time so far: 183.53792071342468s (3.058965345223745m) (0.050982755753729084h)
+2023-09-02 20:44:45,587 - CV - INFO - ===== BEGINNING OPTION SET (005)==========================================================
+2023-09-02 20:44:45,587 - CV - INFO - 	done: False
+2023-09-02 20:44:45,587 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:44:45,587 - CV - INFO - 	h1: 64
+2023-09-02 20:44:45,587 - CV - INFO - 	h2: 32
+2023-09-02 20:44:45,587 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:44:45,587 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:44:45,587 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:44:45,587 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:44:45,587 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:44:45,587 - CV - INFO - 	theta: 30
+2023-09-02 20:44:45,587 - CV - INFO - 	clip: 5
+2023-09-02 20:44:45,587 - CV - INFO - ----- BEGINNING FOLD SET (005:0)----------------------------------------------------------
+2023-09-02 20:44:45,589 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/0
+2023-09-02 20:44:45,711 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:45,959 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:44:45,959 - CV - INFO - Begin OT Train
+2023-09-02 20:44:49,702 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:44:49,736 - CV - INFO - fold time: 4.1490936279296875s (0.0691515604654948m)
+2023-09-02 20:44:49,736 - CV - INFO - ----- BEGINNING FOLD SET (005:1)----------------------------------------------------------
+2023-09-02 20:44:49,738 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/1
+2023-09-02 20:44:49,841 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:50,091 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:44:50,091 - CV - INFO - Begin OT Train
+2023-09-02 20:44:54,042 - CV - INFO - OT Train Complete, 17 epochs
+2023-09-02 20:44:54,074 - CV - INFO - fold time: 4.338295221328735s (0.07230492035547892m)
+2023-09-02 20:44:54,074 - CV - INFO - ----- BEGINNING FOLD SET (005:2)----------------------------------------------------------
+2023-09-02 20:44:54,076 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/2
+2023-09-02 20:44:54,185 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:54,434 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:44:54,435 - CV - INFO - Begin OT Train
+2023-09-02 20:44:58,322 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 20:44:58,356 - CV - INFO - fold time: 4.281813621520996s (0.07136356035868327m)
+2023-09-02 20:44:58,356 - CV - INFO - ----- BEGINNING FOLD SET (005:3)----------------------------------------------------------
+2023-09-02 20:44:58,358 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/3
+2023-09-02 20:44:58,458 - CV - INFO - Begin Pretrain
+2023-09-02 20:44:58,709 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:44:58,709 - CV - INFO - Begin OT Train
+2023-09-02 20:45:02,543 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:45:02,576 - CV - INFO - fold time: 4.2196900844573975s (0.07032816807428996m)
+2023-09-02 20:45:02,576 - CV - INFO - ----- BEGINNING FOLD SET (005:4)----------------------------------------------------------
+2023-09-02 20:45:02,577 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/4
+2023-09-02 20:45:02,675 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:02,926 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:45:02,926 - CV - INFO - Begin OT Train
+2023-09-02 20:45:06,816 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:45:06,857 - CV - INFO - fold time: 4.280600547790527s (0.07134334246317546m)
+2023-09-02 20:45:06,857 - CV - INFO - ----- BEGINNING FOLD SET (005:5)----------------------------------------------------------
+2023-09-02 20:45:06,858 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/5
+2023-09-02 20:45:06,962 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:07,212 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:45:07,212 - CV - INFO - Begin OT Train
+2023-09-02 20:45:11,224 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:45:11,262 - CV - INFO - fold time: 4.405365467071533s (0.07342275778452555m)
+2023-09-02 20:45:11,262 - CV - INFO - ----- BEGINNING FOLD SET (005:6)----------------------------------------------------------
+2023-09-02 20:45:11,264 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/6
+2023-09-02 20:45:11,378 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:11,627 - CV - INFO - Pretrain Complete, 98 epochs
+2023-09-02 20:45:11,627 - CV - INFO - Begin OT Train
+2023-09-02 20:45:15,599 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:45:15,636 - CV - INFO - fold time: 4.373946666717529s (0.07289911111195882m)
+2023-09-02 20:45:15,636 - CV - INFO - ----- BEGINNING FOLD SET (005:7)----------------------------------------------------------
+2023-09-02 20:45:15,637 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/7
+2023-09-02 20:45:15,750 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:16,018 - CV - INFO - Pretrain Complete, 91 epochs
+2023-09-02 20:45:16,018 - CV - INFO - Begin OT Train
+2023-09-02 20:45:19,847 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:45:19,881 - CV - INFO - fold time: 4.245154619216919s (0.07075257698694865m)
+2023-09-02 20:45:19,881 - CV - INFO - ----- BEGINNING FOLD SET (005:8)----------------------------------------------------------
+2023-09-02 20:45:19,883 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/8
+2023-09-02 20:45:19,978 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:20,230 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:45:20,230 - CV - INFO - Begin OT Train
+2023-09-02 20:45:24,049 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:45:24,083 - CV - INFO - fold time: 4.201497554779053s (0.07002495924631755m)
+2023-09-02 20:45:24,083 - CV - INFO - ----- BEGINNING FOLD SET (005:9)----------------------------------------------------------
+2023-09-02 20:45:24,084 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/005/9
+2023-09-02 20:45:24,190 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:24,439 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:45:24,439 - CV - INFO - Begin OT Train
+2023-09-02 20:45:28,468 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:45:28,506 - CV - INFO - fold time: 4.423218250274658s (0.0737203041712443m)
+2023-09-02 20:45:28,506 - CV - INFO - Mean Pretrain Epochs 85.7:
+2023-09-02 20:45:28,506 - CV - INFO - Mean OT Train Epochs 9.0:
+2023-09-02 20:45:28,506 - CV - INFO - Mean Val Macro F1 : 0.9143762413269858
+2023-09-02 20:45:28,506 - CV - INFO - Mean Eval Stat : 0.9143762413269858 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:45:28,506 - CV - INFO - set time: 42.919201135635376s (0.7153200189272563m)
+2023-09-02 20:45:28,506 - CV - INFO - script time so far: 226.45716834068298s (3.774286139011383m) (0.06290476898352305h)
+2023-09-02 20:45:28,506 - CV - INFO - ===== BEGINNING OPTION SET (006)==========================================================
+2023-09-02 20:45:28,506 - CV - INFO - 	done: False
+2023-09-02 20:45:28,506 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:45:28,506 - CV - INFO - 	h1: 64
+2023-09-02 20:45:28,506 - CV - INFO - 	h2: 32
+2023-09-02 20:45:28,506 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:45:28,506 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:45:28,506 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:45:28,506 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:45:28,506 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:45:28,506 - CV - INFO - 	theta: 50
+2023-09-02 20:45:28,506 - CV - INFO - 	clip: 5
+2023-09-02 20:45:28,506 - CV - INFO - ----- BEGINNING FOLD SET (006:0)----------------------------------------------------------
+2023-09-02 20:45:28,508 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/0
+2023-09-02 20:45:28,630 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:28,878 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:45:28,878 - CV - INFO - Begin OT Train
+2023-09-02 20:45:32,726 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:45:32,759 - CV - INFO - fold time: 4.252722263336182s (0.07087870438893636m)
+2023-09-02 20:45:32,759 - CV - INFO - ----- BEGINNING FOLD SET (006:1)----------------------------------------------------------
+2023-09-02 20:45:32,761 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/1
+2023-09-02 20:45:32,864 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:33,115 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:45:33,115 - CV - INFO - Begin OT Train
+2023-09-02 20:45:36,949 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 20:45:36,985 - CV - INFO - fold time: 4.226163625717163s (0.07043606042861938m)
+2023-09-02 20:45:36,985 - CV - INFO - ----- BEGINNING FOLD SET (006:2)----------------------------------------------------------
+2023-09-02 20:45:36,987 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/2
+2023-09-02 20:45:37,097 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:37,377 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:45:37,377 - CV - INFO - Begin OT Train
+2023-09-02 20:45:41,293 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:45:41,326 - CV - INFO - fold time: 4.340791463851929s (0.07234652439753214m)
+2023-09-02 20:45:41,326 - CV - INFO - ----- BEGINNING FOLD SET (006:3)----------------------------------------------------------
+2023-09-02 20:45:41,328 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/3
+2023-09-02 20:45:41,430 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:41,682 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:45:41,682 - CV - INFO - Begin OT Train
+2023-09-02 20:45:45,610 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:45:45,644 - CV - INFO - fold time: 4.318267583847046s (0.07197112639745076m)
+2023-09-02 20:45:45,644 - CV - INFO - ----- BEGINNING FOLD SET (006:4)----------------------------------------------------------
+2023-09-02 20:45:45,646 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/4
+2023-09-02 20:45:45,743 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:45,995 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:45:45,995 - CV - INFO - Begin OT Train
+2023-09-02 20:45:49,965 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:45:49,999 - CV - INFO - fold time: 4.354524612426758s (0.07257541020711263m)
+2023-09-02 20:45:49,999 - CV - INFO - ----- BEGINNING FOLD SET (006:5)----------------------------------------------------------
+2023-09-02 20:45:50,000 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/5
+2023-09-02 20:45:50,105 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:50,354 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:45:50,354 - CV - INFO - Begin OT Train
+2023-09-02 20:45:54,486 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:45:54,523 - CV - INFO - fold time: 4.523703336715698s (0.0753950556119283m)
+2023-09-02 20:45:54,523 - CV - INFO - ----- BEGINNING FOLD SET (006:6)----------------------------------------------------------
+2023-09-02 20:45:54,524 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/6
+2023-09-02 20:45:54,638 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:54,897 - CV - INFO - Pretrain Complete, 98 epochs
+2023-09-02 20:45:54,897 - CV - INFO - Begin OT Train
+2023-09-02 20:45:58,915 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:45:58,956 - CV - INFO - fold time: 4.433343410491943s (0.0738890568415324m)
+2023-09-02 20:45:58,956 - CV - INFO - ----- BEGINNING FOLD SET (006:7)----------------------------------------------------------
+2023-09-02 20:45:58,957 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/7
+2023-09-02 20:45:59,071 - CV - INFO - Begin Pretrain
+2023-09-02 20:45:59,321 - CV - INFO - Pretrain Complete, 91 epochs
+2023-09-02 20:45:59,321 - CV - INFO - Begin OT Train
+2023-09-02 20:46:03,206 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:46:03,242 - CV - INFO - fold time: 4.285866022109985s (0.07143110036849976m)
+2023-09-02 20:46:03,242 - CV - INFO - ----- BEGINNING FOLD SET (006:8)----------------------------------------------------------
+2023-09-02 20:46:03,243 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/8
+2023-09-02 20:46:03,338 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:03,591 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:46:03,591 - CV - INFO - Begin OT Train
+2023-09-02 20:46:07,643 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:46:07,676 - CV - INFO - fold time: 4.433843374252319s (0.07389738957087198m)
+2023-09-02 20:46:07,676 - CV - INFO - ----- BEGINNING FOLD SET (006:9)----------------------------------------------------------
+2023-09-02 20:46:07,677 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/006/9
+2023-09-02 20:46:07,783 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:08,032 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:46:08,032 - CV - INFO - Begin OT Train
+2023-09-02 20:46:11,964 - CV - INFO - OT Train Complete, 13 epochs
+2023-09-02 20:46:12,001 - CV - INFO - fold time: 4.325687646865845s (0.07209479411443075m)
+2023-09-02 20:46:12,001 - CV - INFO - Mean Pretrain Epochs 85.7:
+2023-09-02 20:46:12,001 - CV - INFO - Mean OT Train Epochs 10.1:
+2023-09-02 20:46:12,001 - CV - INFO - Mean Val Macro F1 : 0.8965370915485856
+2023-09-02 20:46:12,001 - CV - INFO - Mean Eval Stat : 0.8965370915485856 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:46:12,002 - CV - INFO - set time: 43.4954354763031s (0.7249239246050517m)
+2023-09-02 20:46:12,002 - CV - INFO - script time so far: 269.9526479244232s (4.499210798740387m) (0.07498684664567312h)
+2023-09-02 20:46:12,002 - CV - INFO - ===== BEGINNING OPTION SET (007)==========================================================
+2023-09-02 20:46:12,002 - CV - INFO - 	done: False
+2023-09-02 20:46:12,002 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:46:12,002 - CV - INFO - 	h1: 64
+2023-09-02 20:46:12,002 - CV - INFO - 	h2: 32
+2023-09-02 20:46:12,002 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:46:12,002 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:46:12,002 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:46:12,002 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:46:12,002 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:46:12,002 - CV - INFO - 	theta: 10
+2023-09-02 20:46:12,002 - CV - INFO - 	clip: 5
+2023-09-02 20:46:12,002 - CV - INFO - ----- BEGINNING FOLD SET (007:0)----------------------------------------------------------
+2023-09-02 20:46:12,003 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/0
+2023-09-02 20:46:12,126 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:12,379 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:46:12,379 - CV - INFO - Begin OT Train
+2023-09-02 20:46:16,271 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:46:16,305 - CV - INFO - fold time: 4.303421974182129s (0.07172369956970215m)
+2023-09-02 20:46:16,305 - CV - INFO - ----- BEGINNING FOLD SET (007:1)----------------------------------------------------------
+2023-09-02 20:46:16,307 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/1
+2023-09-02 20:46:16,409 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:16,662 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:46:16,662 - CV - INFO - Begin OT Train
+2023-09-02 20:46:20,711 - CV - INFO - OT Train Complete, 18 epochs
+2023-09-02 20:46:20,745 - CV - INFO - fold time: 4.439674377441406s (0.07399457295735677m)
+2023-09-02 20:46:20,745 - CV - INFO - ----- BEGINNING FOLD SET (007:2)----------------------------------------------------------
+2023-09-02 20:46:20,746 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/2
+2023-09-02 20:46:20,856 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:21,105 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:46:21,105 - CV - INFO - Begin OT Train
+2023-09-02 20:46:25,020 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:46:25,062 - CV - INFO - fold time: 4.317113399505615s (0.07195188999176025m)
+2023-09-02 20:46:25,062 - CV - INFO - ----- BEGINNING FOLD SET (007:3)----------------------------------------------------------
+2023-09-02 20:46:25,064 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/3
+2023-09-02 20:46:25,165 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:25,415 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:46:25,416 - CV - INFO - Begin OT Train
+2023-09-02 20:46:29,458 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:46:29,494 - CV - INFO - fold time: 4.431907653808594s (0.07386512756347656m)
+2023-09-02 20:46:29,494 - CV - INFO - ----- BEGINNING FOLD SET (007:4)----------------------------------------------------------
+2023-09-02 20:46:29,495 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/4
+2023-09-02 20:46:29,593 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:29,844 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:46:29,844 - CV - INFO - Begin OT Train
+2023-09-02 20:46:33,743 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:46:33,774 - CV - INFO - fold time: 4.279964923858643s (0.07133274873097738m)
+2023-09-02 20:46:33,774 - CV - INFO - ----- BEGINNING FOLD SET (007:5)----------------------------------------------------------
+2023-09-02 20:46:33,775 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/5
+2023-09-02 20:46:33,881 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:34,134 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:46:34,134 - CV - INFO - Begin OT Train
+2023-09-02 20:46:38,005 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:46:38,041 - CV - INFO - fold time: 4.26716685295105s (0.07111944754918416m)
+2023-09-02 20:46:38,041 - CV - INFO - ----- BEGINNING FOLD SET (007:6)----------------------------------------------------------
+2023-09-02 20:46:38,043 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/6
+2023-09-02 20:46:38,156 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:38,406 - CV - INFO - Pretrain Complete, 99 epochs
+2023-09-02 20:46:38,406 - CV - INFO - Begin OT Train
+2023-09-02 20:46:42,466 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:46:42,504 - CV - INFO - fold time: 4.462387561798096s (0.07437312602996826m)
+2023-09-02 20:46:42,504 - CV - INFO - ----- BEGINNING FOLD SET (007:7)----------------------------------------------------------
+2023-09-02 20:46:42,505 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/7
+2023-09-02 20:46:42,618 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:42,868 - CV - INFO - Pretrain Complete, 90 epochs
+2023-09-02 20:46:42,868 - CV - INFO - Begin OT Train
+2023-09-02 20:46:47,013 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:46:47,046 - CV - INFO - fold time: 4.542582273483276s (0.0757097045580546m)
+2023-09-02 20:46:47,046 - CV - INFO - ----- BEGINNING FOLD SET (007:8)----------------------------------------------------------
+2023-09-02 20:46:47,048 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/8
+2023-09-02 20:46:47,143 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:47,395 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:46:47,395 - CV - INFO - Begin OT Train
+2023-09-02 20:46:51,275 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:46:51,317 - CV - INFO - fold time: 4.270395278930664s (0.0711732546488444m)
+2023-09-02 20:46:51,317 - CV - INFO - ----- BEGINNING FOLD SET (007:9)----------------------------------------------------------
+2023-09-02 20:46:51,318 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/007/9
+2023-09-02 20:46:51,424 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:51,673 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:46:51,673 - CV - INFO - Begin OT Train
+2023-09-02 20:46:55,587 - CV - INFO - OT Train Complete, 36 epochs
+2023-09-02 20:46:55,620 - CV - INFO - fold time: 4.303697109222412s (0.07172828515370687m)
+2023-09-02 20:46:55,620 - CV - INFO - Mean Pretrain Epochs 85.7:
+2023-09-02 20:46:55,620 - CV - INFO - Mean OT Train Epochs 11.0:
+2023-09-02 20:46:55,620 - CV - INFO - Mean Val Macro F1 : 0.9362391027663713
+2023-09-02 20:46:55,620 - CV - INFO - Mean Eval Stat : 0.9362391027663713 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:46:55,620 - CV - INFO - set time: 43.61883068084717s (0.7269805113474528m)
+2023-09-02 20:46:55,620 - CV - INFO - script time so far: 313.57152581214905s (5.226192096869151m) (0.08710320161448586h)
+2023-09-02 20:46:55,620 - CV - INFO - ===== BEGINNING OPTION SET (008)==========================================================
+2023-09-02 20:46:55,620 - CV - INFO - 	done: False
+2023-09-02 20:46:55,621 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:46:55,621 - CV - INFO - 	h1: 64
+2023-09-02 20:46:55,621 - CV - INFO - 	h2: 32
+2023-09-02 20:46:55,621 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:46:55,621 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:46:55,621 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:46:55,621 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:46:55,621 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:46:55,621 - CV - INFO - 	theta: 30
+2023-09-02 20:46:55,621 - CV - INFO - 	clip: 5
+2023-09-02 20:46:55,621 - CV - INFO - ----- BEGINNING FOLD SET (008:0)----------------------------------------------------------
+2023-09-02 20:46:55,622 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/0
+2023-09-02 20:46:55,744 - CV - INFO - Begin Pretrain
+2023-09-02 20:46:55,991 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:46:55,991 - CV - INFO - Begin OT Train
+2023-09-02 20:46:59,882 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:46:59,914 - CV - INFO - fold time: 4.293489694595337s (0.07155816157658895m)
+2023-09-02 20:46:59,914 - CV - INFO - ----- BEGINNING FOLD SET (008:1)----------------------------------------------------------
+2023-09-02 20:46:59,916 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/1
+2023-09-02 20:47:00,019 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:00,270 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:47:00,270 - CV - INFO - Begin OT Train
+2023-09-02 20:47:04,185 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 20:47:04,218 - CV - INFO - fold time: 4.303953170776367s (0.07173255284627279m)
+2023-09-02 20:47:04,218 - CV - INFO - ----- BEGINNING FOLD SET (008:2)----------------------------------------------------------
+2023-09-02 20:47:04,220 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/2
+2023-09-02 20:47:04,329 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:04,579 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:47:04,580 - CV - INFO - Begin OT Train
+2023-09-02 20:47:08,424 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:47:08,455 - CV - INFO - fold time: 4.236982583999634s (0.0706163763999939m)
+2023-09-02 20:47:08,455 - CV - INFO - ----- BEGINNING FOLD SET (008:3)----------------------------------------------------------
+2023-09-02 20:47:08,457 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/3
+2023-09-02 20:47:08,557 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:08,807 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:47:08,807 - CV - INFO - Begin OT Train
+2023-09-02 20:47:12,728 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:47:12,763 - CV - INFO - fold time: 4.307926654815674s (0.07179877758026124m)
+2023-09-02 20:47:12,763 - CV - INFO - ----- BEGINNING FOLD SET (008:4)----------------------------------------------------------
+2023-09-02 20:47:12,765 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/4
+2023-09-02 20:47:12,865 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:13,116 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:47:13,116 - CV - INFO - Begin OT Train
+2023-09-02 20:47:17,227 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:47:17,265 - CV - INFO - fold time: 4.502216577529907s (0.07503694295883179m)
+2023-09-02 20:47:17,265 - CV - INFO - ----- BEGINNING FOLD SET (008:5)----------------------------------------------------------
+2023-09-02 20:47:17,267 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/5
+2023-09-02 20:47:17,371 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:17,621 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:47:17,621 - CV - INFO - Begin OT Train
+2023-09-02 20:47:21,423 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:47:21,459 - CV - INFO - fold time: 4.193427085876465s (0.06989045143127441m)
+2023-09-02 20:47:21,459 - CV - INFO - ----- BEGINNING FOLD SET (008:6)----------------------------------------------------------
+2023-09-02 20:47:21,460 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/6
+2023-09-02 20:47:21,575 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:21,824 - CV - INFO - Pretrain Complete, 99 epochs
+2023-09-02 20:47:21,824 - CV - INFO - Begin OT Train
+2023-09-02 20:47:25,905 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:47:25,938 - CV - INFO - fold time: 4.478908538818359s (0.07464847564697266m)
+2023-09-02 20:47:25,938 - CV - INFO - ----- BEGINNING FOLD SET (008:7)----------------------------------------------------------
+2023-09-02 20:47:25,939 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/7
+2023-09-02 20:47:26,051 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:26,302 - CV - INFO - Pretrain Complete, 91 epochs
+2023-09-02 20:47:26,302 - CV - INFO - Begin OT Train
+2023-09-02 20:47:30,180 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:47:30,212 - CV - INFO - fold time: 4.274146795272827s (0.07123577992121378m)
+2023-09-02 20:47:30,212 - CV - INFO - ----- BEGINNING FOLD SET (008:8)----------------------------------------------------------
+2023-09-02 20:47:30,213 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/8
+2023-09-02 20:47:30,309 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:30,563 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:47:30,563 - CV - INFO - Begin OT Train
+2023-09-02 20:47:34,527 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:47:34,562 - CV - INFO - fold time: 4.35006046295166s (0.072501007715861m)
+2023-09-02 20:47:34,562 - CV - INFO - ----- BEGINNING FOLD SET (008:9)----------------------------------------------------------
+2023-09-02 20:47:34,563 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/008/9
+2023-09-02 20:47:34,669 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:34,919 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:47:34,919 - CV - INFO - Begin OT Train
+2023-09-02 20:47:38,822 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:47:38,860 - CV - INFO - fold time: 4.2978293895721436s (0.07163048982620239m)
+2023-09-02 20:47:38,860 - CV - INFO - Mean Pretrain Epochs 85.8:
+2023-09-02 20:47:38,860 - CV - INFO - Mean OT Train Epochs 7.4:
+2023-09-02 20:47:38,860 - CV - INFO - Mean Val Macro F1 : 0.9127985120608564
+2023-09-02 20:47:38,860 - CV - INFO - Mean Eval Stat : 0.9127985120608564 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:47:38,860 - CV - INFO - set time: 43.23947286605835s (0.7206578811009725m)
+2023-09-02 20:47:38,860 - CV - INFO - script time so far: 356.8110423088074s (5.946850705146789m) (0.09911417841911316h)
+2023-09-02 20:47:38,860 - CV - INFO - ===== BEGINNING OPTION SET (009)==========================================================
+2023-09-02 20:47:38,860 - CV - INFO - 	done: False
+2023-09-02 20:47:38,860 - CV - INFO - 	learning_rate: 0.001
+2023-09-02 20:47:38,860 - CV - INFO - 	h1: 64
+2023-09-02 20:47:38,860 - CV - INFO - 	h2: 32
+2023-09-02 20:47:38,860 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:47:38,860 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:47:38,860 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:47:38,860 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:47:38,860 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:47:38,860 - CV - INFO - 	theta: 50
+2023-09-02 20:47:38,860 - CV - INFO - 	clip: 5
+2023-09-02 20:47:38,860 - CV - INFO - ----- BEGINNING FOLD SET (009:0)----------------------------------------------------------
+2023-09-02 20:47:38,862 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/0
+2023-09-02 20:47:38,985 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:39,233 - CV - INFO - Pretrain Complete, 86 epochs
+2023-09-02 20:47:39,233 - CV - INFO - Begin OT Train
+2023-09-02 20:47:43,021 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:47:43,054 - CV - INFO - fold time: 4.193501710891724s (0.06989169518152873m)
+2023-09-02 20:47:43,054 - CV - INFO - ----- BEGINNING FOLD SET (009:1)----------------------------------------------------------
+2023-09-02 20:47:43,055 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/1
+2023-09-02 20:47:43,157 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:43,408 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:47:43,408 - CV - INFO - Begin OT Train
+2023-09-02 20:47:47,359 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:47:47,391 - CV - INFO - fold time: 4.337622165679932s (0.0722937027613322m)
+2023-09-02 20:47:47,391 - CV - INFO - ----- BEGINNING FOLD SET (009:2)----------------------------------------------------------
+2023-09-02 20:47:47,393 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/2
+2023-09-02 20:47:47,502 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:47,751 - CV - INFO - Pretrain Complete, 80 epochs
+2023-09-02 20:47:47,751 - CV - INFO - Begin OT Train
+2023-09-02 20:47:51,496 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:47:51,530 - CV - INFO - fold time: 4.13874888420105s (0.0689791480700175m)
+2023-09-02 20:47:51,530 - CV - INFO - ----- BEGINNING FOLD SET (009:3)----------------------------------------------------------
+2023-09-02 20:47:51,532 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/3
+2023-09-02 20:47:51,632 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:51,883 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:47:51,883 - CV - INFO - Begin OT Train
+2023-09-02 20:47:55,861 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:47:55,891 - CV - INFO - fold time: 4.361069202423096s (0.07268448670705159m)
+2023-09-02 20:47:55,891 - CV - INFO - ----- BEGINNING FOLD SET (009:4)----------------------------------------------------------
+2023-09-02 20:47:55,893 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/4
+2023-09-02 20:47:55,991 - CV - INFO - Begin Pretrain
+2023-09-02 20:47:56,242 - CV - INFO - Pretrain Complete, 81 epochs
+2023-09-02 20:47:56,242 - CV - INFO - Begin OT Train
+2023-09-02 20:48:00,204 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:48:00,238 - CV - INFO - fold time: 4.346564769744873s (0.07244274616241456m)
+2023-09-02 20:48:00,238 - CV - INFO - ----- BEGINNING FOLD SET (009:5)----------------------------------------------------------
+2023-09-02 20:48:00,239 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/5
+2023-09-02 20:48:00,344 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:00,594 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:48:00,594 - CV - INFO - Begin OT Train
+2023-09-02 20:48:04,631 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 20:48:04,664 - CV - INFO - fold time: 4.4262354373931885s (0.0737705906232198m)
+2023-09-02 20:48:04,664 - CV - INFO - ----- BEGINNING FOLD SET (009:6)----------------------------------------------------------
+2023-09-02 20:48:04,666 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/6
+2023-09-02 20:48:04,779 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:05,028 - CV - INFO - Pretrain Complete, 99 epochs
+2023-09-02 20:48:05,028 - CV - INFO - Begin OT Train
+2023-09-02 20:48:09,008 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:48:09,043 - CV - INFO - fold time: 4.379239082336426s (0.07298731803894043m)
+2023-09-02 20:48:09,043 - CV - INFO - ----- BEGINNING FOLD SET (009:7)----------------------------------------------------------
+2023-09-02 20:48:09,045 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/7
+2023-09-02 20:48:09,157 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:09,407 - CV - INFO - Pretrain Complete, 91 epochs
+2023-09-02 20:48:09,407 - CV - INFO - Begin OT Train
+2023-09-02 20:48:13,354 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:48:13,384 - CV - INFO - fold time: 4.340418100357056s (0.0723403016726176m)
+2023-09-02 20:48:13,384 - CV - INFO - ----- BEGINNING FOLD SET (009:8)----------------------------------------------------------
+2023-09-02 20:48:13,385 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/8
+2023-09-02 20:48:13,480 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:13,733 - CV - INFO - Pretrain Complete, 88 epochs
+2023-09-02 20:48:13,733 - CV - INFO - Begin OT Train
+2023-09-02 20:48:17,630 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:48:17,663 - CV - INFO - fold time: 4.279704809188843s (0.07132841348648071m)
+2023-09-02 20:48:17,663 - CV - INFO - ----- BEGINNING FOLD SET (009:9)----------------------------------------------------------
+2023-09-02 20:48:17,665 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/009/9
+2023-09-02 20:48:17,770 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:18,019 - CV - INFO - Pretrain Complete, 85 epochs
+2023-09-02 20:48:18,019 - CV - INFO - Begin OT Train
+2023-09-02 20:48:21,958 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:48:21,993 - CV - INFO - fold time: 4.329479932785034s (0.07215799887975057m)
+2023-09-02 20:48:21,993 - CV - INFO - Mean Pretrain Epochs 85.8:
+2023-09-02 20:48:21,993 - CV - INFO - Mean OT Train Epochs 7.6:
+2023-09-02 20:48:21,993 - CV - INFO - Mean Val Macro F1 : 0.5277038013607767
+2023-09-02 20:48:21,993 - CV - INFO - Mean Eval Stat : 0.5277038013607767 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:48:21,993 - CV - INFO - set time: 43.13311958312988s (0.7188853263854981m)
+2023-09-02 20:48:21,993 - CV - INFO - script time so far: 399.9442069530487s (6.665736782550812m) (0.11109561304251353h)
+2023-09-02 20:48:21,993 - CV - INFO - ===== BEGINNING OPTION SET (010)==========================================================
+2023-09-02 20:48:21,993 - CV - INFO - 	done: False
+2023-09-02 20:48:21,993 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:48:21,993 - CV - INFO - 	h1: 64
+2023-09-02 20:48:21,993 - CV - INFO - 	h2: 32
+2023-09-02 20:48:21,993 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:48:21,993 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:48:21,993 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:48:21,993 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:48:21,993 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:48:21,993 - CV - INFO - 	theta: 10
+2023-09-02 20:48:21,993 - CV - INFO - 	clip: 5
+2023-09-02 20:48:21,993 - CV - INFO - ----- BEGINNING FOLD SET (010:0)----------------------------------------------------------
+2023-09-02 20:48:21,995 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/0
+2023-09-02 20:48:22,117 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:22,364 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:48:22,364 - CV - INFO - Begin OT Train
+2023-09-02 20:48:27,014 - CV - INFO - OT Train Complete, 24 epochs
+2023-09-02 20:48:27,050 - CV - INFO - fold time: 5.05716872215271s (0.08428614536921183m)
+2023-09-02 20:48:27,050 - CV - INFO - ----- BEGINNING FOLD SET (010:1)----------------------------------------------------------
+2023-09-02 20:48:27,052 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/1
+2023-09-02 20:48:27,156 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:27,431 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:48:27,431 - CV - INFO - Begin OT Train
+2023-09-02 20:48:31,952 - CV - INFO - OT Train Complete, 23 epochs
+2023-09-02 20:48:31,989 - CV - INFO - fold time: 4.938733100891113s (0.08231221834818522m)
+2023-09-02 20:48:31,989 - CV - INFO - ----- BEGINNING FOLD SET (010:2)----------------------------------------------------------
+2023-09-02 20:48:31,991 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/2
+2023-09-02 20:48:32,101 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:32,366 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:48:32,366 - CV - INFO - Begin OT Train
+2023-09-02 20:48:36,958 - CV - INFO - OT Train Complete, 16 epochs
+2023-09-02 20:48:36,994 - CV - INFO - fold time: 5.004672288894653s (0.08341120481491089m)
+2023-09-02 20:48:36,994 - CV - INFO - ----- BEGINNING FOLD SET (010:3)----------------------------------------------------------
+2023-09-02 20:48:36,996 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/3
+2023-09-02 20:48:37,096 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:37,346 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:48:37,347 - CV - INFO - Begin OT Train
+2023-09-02 20:48:41,850 - CV - INFO - OT Train Complete, 27 epochs
+2023-09-02 20:48:41,890 - CV - INFO - fold time: 4.8958516120910645s (0.0815975268681844m)
+2023-09-02 20:48:41,890 - CV - INFO - ----- BEGINNING FOLD SET (010:4)----------------------------------------------------------
+2023-09-02 20:48:41,891 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/4
+2023-09-02 20:48:41,989 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:42,240 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:48:42,240 - CV - INFO - Begin OT Train
+2023-09-02 20:48:46,794 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:48:46,830 - CV - INFO - fold time: 4.939692735671997s (0.08232821226119995m)
+2023-09-02 20:48:46,830 - CV - INFO - ----- BEGINNING FOLD SET (010:5)----------------------------------------------------------
+2023-09-02 20:48:46,831 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/5
+2023-09-02 20:48:46,936 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:47,185 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:48:47,185 - CV - INFO - Begin OT Train
+2023-09-02 20:48:51,540 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:48:51,576 - CV - INFO - fold time: 4.746479272842407s (0.07910798788070679m)
+2023-09-02 20:48:51,576 - CV - INFO - ----- BEGINNING FOLD SET (010:6)----------------------------------------------------------
+2023-09-02 20:48:51,578 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/6
+2023-09-02 20:48:51,691 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:51,939 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:48:51,939 - CV - INFO - Begin OT Train
+2023-09-02 20:48:56,525 - CV - INFO - OT Train Complete, 22 epochs
+2023-09-02 20:48:56,565 - CV - INFO - fold time: 4.98849081993103s (0.08314151366551717m)
+2023-09-02 20:48:56,565 - CV - INFO - ----- BEGINNING FOLD SET (010:7)----------------------------------------------------------
+2023-09-02 20:48:56,566 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/7
+2023-09-02 20:48:56,679 - CV - INFO - Begin Pretrain
+2023-09-02 20:48:56,929 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:48:56,929 - CV - INFO - Begin OT Train
+2023-09-02 20:49:01,634 - CV - INFO - OT Train Complete, 16 epochs
+2023-09-02 20:49:01,670 - CV - INFO - fold time: 5.1057116985321045s (0.08509519497553507m)
+2023-09-02 20:49:01,670 - CV - INFO - ----- BEGINNING FOLD SET (010:8)----------------------------------------------------------
+2023-09-02 20:49:01,672 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/8
+2023-09-02 20:49:01,767 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:02,019 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:49:02,019 - CV - INFO - Begin OT Train
+2023-09-02 20:49:06,502 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:49:06,537 - CV - INFO - fold time: 4.867120742797852s (0.08111867904663086m)
+2023-09-02 20:49:06,537 - CV - INFO - ----- BEGINNING FOLD SET (010:9)----------------------------------------------------------
+2023-09-02 20:49:06,539 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/010/9
+2023-09-02 20:49:06,645 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:06,894 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:49:06,894 - CV - INFO - Begin OT Train
+2023-09-02 20:49:11,375 - CV - INFO - OT Train Complete, 21 epochs
+2023-09-02 20:49:11,410 - CV - INFO - fold time: 4.8721137046813965s (0.08120189507802328m)
+2023-09-02 20:49:11,410 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:49:11,410 - CV - INFO - Mean OT Train Epochs 17.4:
+2023-09-02 20:49:11,410 - CV - INFO - Mean Val Macro F1 : 0.9589087702629799
+2023-09-02 20:49:11,410 - CV - INFO - Mean Eval Stat : 0.9589087702629799 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:49:11,410 - CV - INFO - NEW BEST SET! (0.9589087702629799)
+2023-09-02 20:49:11,410 - CV - INFO - set time: 49.41657853126526s (0.8236096421877543m)
+2023-09-02 20:49:11,410 - CV - INFO - script time so far: 449.3608305454254s (7.48934717575709m) (0.12482245292928483h)
+2023-09-02 20:49:11,410 - CV - INFO - ===== BEGINNING OPTION SET (011)==========================================================
+2023-09-02 20:49:11,410 - CV - INFO - 	done: False
+2023-09-02 20:49:11,410 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:49:11,410 - CV - INFO - 	h1: 64
+2023-09-02 20:49:11,410 - CV - INFO - 	h2: 32
+2023-09-02 20:49:11,410 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:49:11,410 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:49:11,410 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:49:11,410 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:49:11,410 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:49:11,410 - CV - INFO - 	theta: 30
+2023-09-02 20:49:11,410 - CV - INFO - 	clip: 5
+2023-09-02 20:49:11,410 - CV - INFO - ----- BEGINNING FOLD SET (011:0)----------------------------------------------------------
+2023-09-02 20:49:11,411 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/0
+2023-09-02 20:49:11,533 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:11,780 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:49:11,780 - CV - INFO - Begin OT Train
+2023-09-02 20:49:16,043 - CV - INFO - OT Train Complete, 38 epochs
+2023-09-02 20:49:16,078 - CV - INFO - fold time: 4.667994976043701s (0.07779991626739502m)
+2023-09-02 20:49:16,078 - CV - INFO - ----- BEGINNING FOLD SET (011:1)----------------------------------------------------------
+2023-09-02 20:49:16,079 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/1
+2023-09-02 20:49:16,182 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:16,433 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:49:16,433 - CV - INFO - Begin OT Train
+2023-09-02 20:49:20,673 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:49:20,708 - CV - INFO - fold time: 4.630239725112915s (0.07717066208521525m)
+2023-09-02 20:49:20,708 - CV - INFO - ----- BEGINNING FOLD SET (011:2)----------------------------------------------------------
+2023-09-02 20:49:20,710 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/2
+2023-09-02 20:49:20,819 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:21,069 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:49:21,069 - CV - INFO - Begin OT Train
+2023-09-02 20:49:25,495 - CV - INFO - OT Train Complete, 15 epochs
+2023-09-02 20:49:25,529 - CV - INFO - fold time: 4.820484399795532s (0.08034140666325887m)
+2023-09-02 20:49:25,529 - CV - INFO - ----- BEGINNING FOLD SET (011:3)----------------------------------------------------------
+2023-09-02 20:49:25,530 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/3
+2023-09-02 20:49:25,632 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:25,881 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:49:25,881 - CV - INFO - Begin OT Train
+2023-09-02 20:49:30,162 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:49:30,199 - CV - INFO - fold time: 4.670355558395386s (0.07783925930658976m)
+2023-09-02 20:49:30,199 - CV - INFO - ----- BEGINNING FOLD SET (011:4)----------------------------------------------------------
+2023-09-02 20:49:30,201 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/4
+2023-09-02 20:49:30,299 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:30,549 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:49:30,549 - CV - INFO - Begin OT Train
+2023-09-02 20:49:34,872 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:49:34,906 - CV - INFO - fold time: 4.707208871841431s (0.07845348119735718m)
+2023-09-02 20:49:34,906 - CV - INFO - ----- BEGINNING FOLD SET (011:5)----------------------------------------------------------
+2023-09-02 20:49:34,908 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/5
+2023-09-02 20:49:35,013 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:35,261 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:49:35,261 - CV - INFO - Begin OT Train
+2023-09-02 20:49:39,503 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:49:39,537 - CV - INFO - fold time: 4.630265474319458s (0.07717109123865763m)
+2023-09-02 20:49:39,537 - CV - INFO - ----- BEGINNING FOLD SET (011:6)----------------------------------------------------------
+2023-09-02 20:49:39,538 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/6
+2023-09-02 20:49:39,651 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:39,899 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:49:39,899 - CV - INFO - Begin OT Train
+2023-09-02 20:49:44,220 - CV - INFO - OT Train Complete, 16 epochs
+2023-09-02 20:49:44,258 - CV - INFO - fold time: 4.720884799957275s (0.07868141333262126m)
+2023-09-02 20:49:44,258 - CV - INFO - ----- BEGINNING FOLD SET (011:7)----------------------------------------------------------
+2023-09-02 20:49:44,259 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/7
+2023-09-02 20:49:44,372 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:44,621 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:49:44,621 - CV - INFO - Begin OT Train
+2023-09-02 20:49:48,859 - CV - INFO - OT Train Complete, 16 epochs
+2023-09-02 20:49:48,901 - CV - INFO - fold time: 4.6439595222473145s (0.07739932537078857m)
+2023-09-02 20:49:48,902 - CV - INFO - ----- BEGINNING FOLD SET (011:8)----------------------------------------------------------
+2023-09-02 20:49:48,903 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/8
+2023-09-02 20:49:48,998 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:49,250 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:49:49,250 - CV - INFO - Begin OT Train
+2023-09-02 20:49:53,575 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:49:53,612 - CV - INFO - fold time: 4.710240364074707s (0.07850400606791179m)
+2023-09-02 20:49:53,612 - CV - INFO - ----- BEGINNING FOLD SET (011:9)----------------------------------------------------------
+2023-09-02 20:49:53,613 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/011/9
+2023-09-02 20:49:53,720 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:53,969 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:49:53,969 - CV - INFO - Begin OT Train
+2023-09-02 20:49:58,255 - CV - INFO - OT Train Complete, 22 epochs
+2023-09-02 20:49:58,287 - CV - INFO - fold time: 4.675335645675659s (0.07792226076126099m)
+2023-09-02 20:49:58,287 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:49:58,287 - CV - INFO - Mean OT Train Epochs 15.8:
+2023-09-02 20:49:58,287 - CV - INFO - Mean Val Macro F1 : 0.9564841463552417
+2023-09-02 20:49:58,287 - CV - INFO - Mean Eval Stat : 0.9564841463552417 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:49:58,287 - CV - INFO - set time: 46.8774950504303s (0.7812915841738383m)
+2023-09-02 20:49:58,287 - CV - INFO - script time so far: 496.23836874961853s (8.270639479160309m) (0.13784399131933847h)
+2023-09-02 20:49:58,287 - CV - INFO - ===== BEGINNING OPTION SET (012)==========================================================
+2023-09-02 20:49:58,287 - CV - INFO - 	done: False
+2023-09-02 20:49:58,287 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:49:58,287 - CV - INFO - 	h1: 64
+2023-09-02 20:49:58,287 - CV - INFO - 	h2: 32
+2023-09-02 20:49:58,287 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:49:58,287 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:49:58,287 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:49:58,287 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:49:58,287 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:49:58,287 - CV - INFO - 	theta: 50
+2023-09-02 20:49:58,287 - CV - INFO - 	clip: 5
+2023-09-02 20:49:58,287 - CV - INFO - ----- BEGINNING FOLD SET (012:0)----------------------------------------------------------
+2023-09-02 20:49:58,289 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/0
+2023-09-02 20:49:58,411 - CV - INFO - Begin Pretrain
+2023-09-02 20:49:58,658 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:49:58,658 - CV - INFO - Begin OT Train
+2023-09-02 20:50:02,809 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:50:02,844 - CV - INFO - fold time: 4.556286334991455s (0.07593810558319092m)
+2023-09-02 20:50:02,844 - CV - INFO - ----- BEGINNING FOLD SET (012:1)----------------------------------------------------------
+2023-09-02 20:50:02,845 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/1
+2023-09-02 20:50:02,949 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:03,199 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:50:03,199 - CV - INFO - Begin OT Train
+2023-09-02 20:50:07,387 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:50:07,421 - CV - INFO - fold time: 4.577155590057373s (0.07628592650095621m)
+2023-09-02 20:50:07,421 - CV - INFO - ----- BEGINNING FOLD SET (012:2)----------------------------------------------------------
+2023-09-02 20:50:07,423 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/2
+2023-09-02 20:50:07,531 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:07,780 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:50:07,780 - CV - INFO - Begin OT Train
+2023-09-02 20:50:12,197 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 20:50:12,233 - CV - INFO - fold time: 4.8120317459106445s (0.08020052909851075m)
+2023-09-02 20:50:12,233 - CV - INFO - ----- BEGINNING FOLD SET (012:3)----------------------------------------------------------
+2023-09-02 20:50:12,235 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/3
+2023-09-02 20:50:12,336 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:12,586 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:50:12,586 - CV - INFO - Begin OT Train
+2023-09-02 20:50:16,779 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:50:16,818 - CV - INFO - fold time: 4.5849831104278564s (0.0764163851737976m)
+2023-09-02 20:50:16,818 - CV - INFO - ----- BEGINNING FOLD SET (012:4)----------------------------------------------------------
+2023-09-02 20:50:16,820 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/4
+2023-09-02 20:50:16,917 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:17,168 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:50:17,168 - CV - INFO - Begin OT Train
+2023-09-02 20:50:21,391 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:50:21,432 - CV - INFO - fold time: 4.613900661468506s (0.07689834435780843m)
+2023-09-02 20:50:21,432 - CV - INFO - ----- BEGINNING FOLD SET (012:5)----------------------------------------------------------
+2023-09-02 20:50:21,433 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/5
+2023-09-02 20:50:21,538 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:21,786 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:50:21,786 - CV - INFO - Begin OT Train
+2023-09-02 20:50:25,959 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:50:25,997 - CV - INFO - fold time: 4.565256595611572s (0.07608760992685953m)
+2023-09-02 20:50:25,997 - CV - INFO - ----- BEGINNING FOLD SET (012:6)----------------------------------------------------------
+2023-09-02 20:50:25,999 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/6
+2023-09-02 20:50:26,112 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:26,359 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:50:26,360 - CV - INFO - Begin OT Train
+2023-09-02 20:50:30,568 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 20:50:30,613 - CV - INFO - fold time: 4.615928649902344s (0.07693214416503906m)
+2023-09-02 20:50:30,613 - CV - INFO - ----- BEGINNING FOLD SET (012:7)----------------------------------------------------------
+2023-09-02 20:50:30,615 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/7
+2023-09-02 20:50:30,728 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:30,977 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:50:30,977 - CV - INFO - Begin OT Train
+2023-09-02 20:50:35,395 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:50:35,432 - CV - INFO - fold time: 4.818853139877319s (0.08031421899795532m)
+2023-09-02 20:50:35,432 - CV - INFO - ----- BEGINNING FOLD SET (012:8)----------------------------------------------------------
+2023-09-02 20:50:35,434 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/8
+2023-09-02 20:50:35,529 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:35,781 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:50:35,781 - CV - INFO - Begin OT Train
+2023-09-02 20:50:40,077 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:50:40,114 - CV - INFO - fold time: 4.681832790374756s (0.07803054650624593m)
+2023-09-02 20:50:40,114 - CV - INFO - ----- BEGINNING FOLD SET (012:9)----------------------------------------------------------
+2023-09-02 20:50:40,115 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/012/9
+2023-09-02 20:50:40,221 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:40,476 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:50:40,476 - CV - INFO - Begin OT Train
+2023-09-02 20:50:44,821 - CV - INFO - OT Train Complete, 31 epochs
+2023-09-02 20:50:44,853 - CV - INFO - fold time: 4.73908257484436s (0.07898470958073935m)
+2023-09-02 20:50:44,853 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:50:44,853 - CV - INFO - Mean OT Train Epochs 15.2:
+2023-09-02 20:50:44,853 - CV - INFO - Mean Val Macro F1 : 0.9540024130621008
+2023-09-02 20:50:44,853 - CV - INFO - Mean Eval Stat : 0.9540024130621008 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:50:44,853 - CV - INFO - set time: 46.56584286689758s (0.7760973811149597m)
+2023-09-02 20:50:44,853 - CV - INFO - script time so far: 542.8042531013489s (9.046737551689148m) (0.15077895919481912h)
+2023-09-02 20:50:44,853 - CV - INFO - ===== BEGINNING OPTION SET (013)==========================================================
+2023-09-02 20:50:44,853 - CV - INFO - 	done: False
+2023-09-02 20:50:44,853 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:50:44,853 - CV - INFO - 	h1: 64
+2023-09-02 20:50:44,853 - CV - INFO - 	h2: 32
+2023-09-02 20:50:44,853 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:50:44,853 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:50:44,853 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:50:44,853 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:50:44,853 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:50:44,853 - CV - INFO - 	theta: 10
+2023-09-02 20:50:44,853 - CV - INFO - 	clip: 5
+2023-09-02 20:50:44,853 - CV - INFO - ----- BEGINNING FOLD SET (013:0)----------------------------------------------------------
+2023-09-02 20:50:44,855 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/0
+2023-09-02 20:50:44,978 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:45,225 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:50:45,225 - CV - INFO - Begin OT Train
+2023-09-02 20:50:49,321 - CV - INFO - OT Train Complete, 25 epochs
+2023-09-02 20:50:49,354 - CV - INFO - fold time: 4.500558376312256s (0.07500930627187093m)
+2023-09-02 20:50:49,354 - CV - INFO - ----- BEGINNING FOLD SET (013:1)----------------------------------------------------------
+2023-09-02 20:50:49,355 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/1
+2023-09-02 20:50:49,458 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:49,709 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:50:49,709 - CV - INFO - Begin OT Train
+2023-09-02 20:50:53,723 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:50:53,754 - CV - INFO - fold time: 4.400508642196655s (0.07334181070327758m)
+2023-09-02 20:50:53,754 - CV - INFO - ----- BEGINNING FOLD SET (013:2)----------------------------------------------------------
+2023-09-02 20:50:53,756 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/2
+2023-09-02 20:50:53,865 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:54,114 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:50:54,114 - CV - INFO - Begin OT Train
+2023-09-02 20:50:58,150 - CV - INFO - OT Train Complete, 15 epochs
+2023-09-02 20:50:58,186 - CV - INFO - fold time: 4.431927919387817s (0.07386546532313029m)
+2023-09-02 20:50:58,186 - CV - INFO - ----- BEGINNING FOLD SET (013:3)----------------------------------------------------------
+2023-09-02 20:50:58,188 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/3
+2023-09-02 20:50:58,288 - CV - INFO - Begin Pretrain
+2023-09-02 20:50:58,539 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:50:58,539 - CV - INFO - Begin OT Train
+2023-09-02 20:51:02,633 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:51:02,667 - CV - INFO - fold time: 4.48050856590271s (0.07467514276504517m)
+2023-09-02 20:51:02,667 - CV - INFO - ----- BEGINNING FOLD SET (013:4)----------------------------------------------------------
+2023-09-02 20:51:02,668 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/4
+2023-09-02 20:51:02,766 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:03,017 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:51:03,017 - CV - INFO - Begin OT Train
+2023-09-02 20:51:07,022 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:51:07,057 - CV - INFO - fold time: 4.390391826629639s (0.07317319711049398m)
+2023-09-02 20:51:07,057 - CV - INFO - ----- BEGINNING FOLD SET (013:5)----------------------------------------------------------
+2023-09-02 20:51:07,059 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/5
+2023-09-02 20:51:07,163 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:07,412 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:51:07,412 - CV - INFO - Begin OT Train
+2023-09-02 20:51:11,274 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:51:11,310 - CV - INFO - fold time: 4.252224922180176s (0.07087041536966959m)
+2023-09-02 20:51:11,310 - CV - INFO - ----- BEGINNING FOLD SET (013:6)----------------------------------------------------------
+2023-09-02 20:51:11,311 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/6
+2023-09-02 20:51:11,425 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:11,674 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:51:11,674 - CV - INFO - Begin OT Train
+2023-09-02 20:51:15,672 - CV - INFO - OT Train Complete, 39 epochs
+2023-09-02 20:51:15,709 - CV - INFO - fold time: 4.398939847946167s (0.07331566413243612m)
+2023-09-02 20:51:15,709 - CV - INFO - ----- BEGINNING FOLD SET (013:7)----------------------------------------------------------
+2023-09-02 20:51:15,710 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/7
+2023-09-02 20:51:15,823 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:16,073 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:51:16,073 - CV - INFO - Begin OT Train
+2023-09-02 20:51:20,043 - CV - INFO - OT Train Complete, 42 epochs
+2023-09-02 20:51:20,076 - CV - INFO - fold time: 4.367766857147217s (0.07279611428578694m)
+2023-09-02 20:51:20,076 - CV - INFO - ----- BEGINNING FOLD SET (013:8)----------------------------------------------------------
+2023-09-02 20:51:20,078 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/8
+2023-09-02 20:51:20,173 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:20,425 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:51:20,425 - CV - INFO - Begin OT Train
+2023-09-02 20:51:24,499 - CV - INFO - OT Train Complete, 17 epochs
+2023-09-02 20:51:24,548 - CV - INFO - fold time: 4.471941232681274s (0.07453235387802123m)
+2023-09-02 20:51:24,548 - CV - INFO - ----- BEGINNING FOLD SET (013:9)----------------------------------------------------------
+2023-09-02 20:51:24,550 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/013/9
+2023-09-02 20:51:24,654 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:24,904 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:51:24,904 - CV - INFO - Begin OT Train
+2023-09-02 20:51:28,880 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:51:28,913 - CV - INFO - fold time: 4.364718914031982s (0.07274531523386638m)
+2023-09-02 20:51:28,913 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:51:28,913 - CV - INFO - Mean OT Train Epochs 18.2:
+2023-09-02 20:51:28,913 - CV - INFO - Mean Val Macro F1 : 0.9575876305537413
+2023-09-02 20:51:28,913 - CV - INFO - Mean Eval Stat : 0.9575876305537413 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:51:28,913 - CV - INFO - set time: 44.06001949310303s (0.7343336582183838m)
+2023-09-02 20:51:28,913 - CV - INFO - script time so far: 586.8643157482147s (9.781071929136912m) (0.1630178654856152h)
+2023-09-02 20:51:28,913 - CV - INFO - ===== BEGINNING OPTION SET (014)==========================================================
+2023-09-02 20:51:28,913 - CV - INFO - 	done: False
+2023-09-02 20:51:28,913 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:51:28,913 - CV - INFO - 	h1: 64
+2023-09-02 20:51:28,913 - CV - INFO - 	h2: 32
+2023-09-02 20:51:28,913 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:51:28,913 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:51:28,913 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:51:28,913 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:51:28,913 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:51:28,913 - CV - INFO - 	theta: 30
+2023-09-02 20:51:28,913 - CV - INFO - 	clip: 5
+2023-09-02 20:51:28,913 - CV - INFO - ----- BEGINNING FOLD SET (014:0)----------------------------------------------------------
+2023-09-02 20:51:28,915 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/0
+2023-09-02 20:51:29,038 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:29,285 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:51:29,285 - CV - INFO - Begin OT Train
+2023-09-02 20:51:33,201 - CV - INFO - OT Train Complete, 40 epochs
+2023-09-02 20:51:33,235 - CV - INFO - fold time: 4.321939706802368s (0.07203232844670614m)
+2023-09-02 20:51:33,235 - CV - INFO - ----- BEGINNING FOLD SET (014:1)----------------------------------------------------------
+2023-09-02 20:51:33,237 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/1
+2023-09-02 20:51:33,340 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:33,591 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:51:33,592 - CV - INFO - Begin OT Train
+2023-09-02 20:51:37,550 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:51:37,583 - CV - INFO - fold time: 4.347658634185791s (0.07246097723642984m)
+2023-09-02 20:51:37,583 - CV - INFO - ----- BEGINNING FOLD SET (014:2)----------------------------------------------------------
+2023-09-02 20:51:37,585 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/2
+2023-09-02 20:51:37,694 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:37,943 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:51:37,943 - CV - INFO - Begin OT Train
+2023-09-02 20:51:41,830 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:51:41,863 - CV - INFO - fold time: 4.2799530029296875s (0.07133255004882813m)
+2023-09-02 20:51:41,863 - CV - INFO - ----- BEGINNING FOLD SET (014:3)----------------------------------------------------------
+2023-09-02 20:51:41,865 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/3
+2023-09-02 20:51:41,965 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:42,216 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:51:42,216 - CV - INFO - Begin OT Train
+2023-09-02 20:51:46,191 - CV - INFO - OT Train Complete, 19 epochs
+2023-09-02 20:51:46,225 - CV - INFO - fold time: 4.361659288406372s (0.07269432147343953m)
+2023-09-02 20:51:46,225 - CV - INFO - ----- BEGINNING FOLD SET (014:4)----------------------------------------------------------
+2023-09-02 20:51:46,226 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/4
+2023-09-02 20:51:46,324 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:46,575 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:51:46,575 - CV - INFO - Begin OT Train
+2023-09-02 20:51:50,659 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:51:50,692 - CV - INFO - fold time: 4.467238664627075s (0.07445397774378458m)
+2023-09-02 20:51:50,692 - CV - INFO - ----- BEGINNING FOLD SET (014:5)----------------------------------------------------------
+2023-09-02 20:51:50,694 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/5
+2023-09-02 20:51:50,798 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:51,047 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:51:51,047 - CV - INFO - Begin OT Train
+2023-09-02 20:51:55,040 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:51:55,073 - CV - INFO - fold time: 4.381127119064331s (0.07301878531773885m)
+2023-09-02 20:51:55,073 - CV - INFO - ----- BEGINNING FOLD SET (014:6)----------------------------------------------------------
+2023-09-02 20:51:55,075 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/6
+2023-09-02 20:51:55,188 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:55,437 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:51:55,437 - CV - INFO - Begin OT Train
+2023-09-02 20:51:59,315 - CV - INFO - OT Train Complete, 34 epochs
+2023-09-02 20:51:59,348 - CV - INFO - fold time: 4.27486515045166s (0.07124775250752767m)
+2023-09-02 20:51:59,348 - CV - INFO - ----- BEGINNING FOLD SET (014:7)----------------------------------------------------------
+2023-09-02 20:51:59,349 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/7
+2023-09-02 20:51:59,463 - CV - INFO - Begin Pretrain
+2023-09-02 20:51:59,713 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:51:59,713 - CV - INFO - Begin OT Train
+2023-09-02 20:52:03,657 - CV - INFO - OT Train Complete, 22 epochs
+2023-09-02 20:52:03,692 - CV - INFO - fold time: 4.3437581062316895s (0.07239596843719483m)
+2023-09-02 20:52:03,692 - CV - INFO - ----- BEGINNING FOLD SET (014:8)----------------------------------------------------------
+2023-09-02 20:52:03,693 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/8
+2023-09-02 20:52:03,789 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:04,042 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:52:04,042 - CV - INFO - Begin OT Train
+2023-09-02 20:52:08,026 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:52:08,057 - CV - INFO - fold time: 4.36522364616394s (0.07275372743606567m)
+2023-09-02 20:52:08,057 - CV - INFO - ----- BEGINNING FOLD SET (014:9)----------------------------------------------------------
+2023-09-02 20:52:08,059 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/014/9
+2023-09-02 20:52:08,164 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:08,413 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:52:08,413 - CV - INFO - Begin OT Train
+2023-09-02 20:52:12,562 - CV - INFO - OT Train Complete, 26 epochs
+2023-09-02 20:52:12,595 - CV - INFO - fold time: 4.538305759429932s (0.07563842932383219m)
+2023-09-02 20:52:12,595 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:52:12,595 - CV - INFO - Mean OT Train Epochs 18.6:
+2023-09-02 20:52:12,595 - CV - INFO - Mean Val Macro F1 : 0.9551613164439423
+2023-09-02 20:52:12,595 - CV - INFO - Mean Eval Stat : 0.9551613164439423 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:52:12,596 - CV - INFO - set time: 43.6822669506073s (0.7280377825101216m)
+2023-09-02 20:52:12,596 - CV - INFO - script time so far: 630.5466287136078s (10.50911047856013m) (0.1751518413093355h)
+2023-09-02 20:52:12,596 - CV - INFO - ===== BEGINNING OPTION SET (015)==========================================================
+2023-09-02 20:52:12,596 - CV - INFO - 	done: False
+2023-09-02 20:52:12,596 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:52:12,596 - CV - INFO - 	h1: 64
+2023-09-02 20:52:12,596 - CV - INFO - 	h2: 32
+2023-09-02 20:52:12,596 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:52:12,596 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:52:12,596 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:52:12,596 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:52:12,596 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:52:12,596 - CV - INFO - 	theta: 50
+2023-09-02 20:52:12,596 - CV - INFO - 	clip: 5
+2023-09-02 20:52:12,596 - CV - INFO - ----- BEGINNING FOLD SET (015:0)----------------------------------------------------------
+2023-09-02 20:52:12,597 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/0
+2023-09-02 20:52:12,720 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:12,967 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:52:12,967 - CV - INFO - Begin OT Train
+2023-09-02 20:52:16,831 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:52:16,863 - CV - INFO - fold time: 4.267037630081177s (0.07111729383468628m)
+2023-09-02 20:52:16,863 - CV - INFO - ----- BEGINNING FOLD SET (015:1)----------------------------------------------------------
+2023-09-02 20:52:16,864 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/1
+2023-09-02 20:52:16,967 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:17,219 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:52:17,219 - CV - INFO - Begin OT Train
+2023-09-02 20:52:21,353 - CV - INFO - OT Train Complete, 13 epochs
+2023-09-02 20:52:21,386 - CV - INFO - fold time: 4.522897720336914s (0.0753816286722819m)
+2023-09-02 20:52:21,386 - CV - INFO - ----- BEGINNING FOLD SET (015:2)----------------------------------------------------------
+2023-09-02 20:52:21,387 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/2
+2023-09-02 20:52:21,497 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:21,746 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:52:21,746 - CV - INFO - Begin OT Train
+2023-09-02 20:52:25,786 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:52:25,818 - CV - INFO - fold time: 4.4326090812683105s (0.0738768180211385m)
+2023-09-02 20:52:25,818 - CV - INFO - ----- BEGINNING FOLD SET (015:3)----------------------------------------------------------
+2023-09-02 20:52:25,820 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/3
+2023-09-02 20:52:25,921 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:26,171 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:52:26,171 - CV - INFO - Begin OT Train
+2023-09-02 20:52:30,054 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:52:30,087 - CV - INFO - fold time: 4.26821494102478s (0.07113691568374633m)
+2023-09-02 20:52:30,087 - CV - INFO - ----- BEGINNING FOLD SET (015:4)----------------------------------------------------------
+2023-09-02 20:52:30,088 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/4
+2023-09-02 20:52:30,186 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:30,437 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:52:30,437 - CV - INFO - Begin OT Train
+2023-09-02 20:52:34,278 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:52:34,311 - CV - INFO - fold time: 4.224459171295166s (0.07040765285491943m)
+2023-09-02 20:52:34,311 - CV - INFO - ----- BEGINNING FOLD SET (015:5)----------------------------------------------------------
+2023-09-02 20:52:34,313 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/5
+2023-09-02 20:52:34,417 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:34,690 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:52:34,690 - CV - INFO - Begin OT Train
+2023-09-02 20:52:38,551 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:52:38,583 - CV - INFO - fold time: 4.271937608718872s (0.07119896014531453m)
+2023-09-02 20:52:38,583 - CV - INFO - ----- BEGINNING FOLD SET (015:6)----------------------------------------------------------
+2023-09-02 20:52:38,585 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/6
+2023-09-02 20:52:38,697 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:38,946 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:52:38,946 - CV - INFO - Begin OT Train
+2023-09-02 20:52:42,885 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:52:42,920 - CV - INFO - fold time: 4.337286949157715s (0.07228811581929524m)
+2023-09-02 20:52:42,920 - CV - INFO - ----- BEGINNING FOLD SET (015:7)----------------------------------------------------------
+2023-09-02 20:52:42,922 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/7
+2023-09-02 20:52:43,034 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:43,285 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:52:43,285 - CV - INFO - Begin OT Train
+2023-09-02 20:52:47,186 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:52:47,219 - CV - INFO - fold time: 4.2985968589782715s (0.0716432809829712m)
+2023-09-02 20:52:47,219 - CV - INFO - ----- BEGINNING FOLD SET (015:8)----------------------------------------------------------
+2023-09-02 20:52:47,220 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/8
+2023-09-02 20:52:47,350 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:47,602 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:52:47,602 - CV - INFO - Begin OT Train
+2023-09-02 20:52:51,553 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:52:51,585 - CV - INFO - fold time: 4.365987539291382s (0.0727664589881897m)
+2023-09-02 20:52:51,585 - CV - INFO - ----- BEGINNING FOLD SET (015:9)----------------------------------------------------------
+2023-09-02 20:52:51,586 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/015/9
+2023-09-02 20:52:51,692 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:51,942 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:52:51,942 - CV - INFO - Begin OT Train
+2023-09-02 20:52:55,871 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:52:55,904 - CV - INFO - fold time: 4.319036483764648s (0.07198394139607747m)
+2023-09-02 20:52:55,904 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:52:55,904 - CV - INFO - Mean OT Train Epochs 8.3:
+2023-09-02 20:52:55,904 - CV - INFO - Mean Val Macro F1 : 0.3491007683535168
+2023-09-02 20:52:55,904 - CV - INFO - Mean Eval Stat : 0.3491007683535168 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:52:55,904 - CV - INFO - set time: 43.308610677719116s (0.7218101779619853m)
+2023-09-02 20:52:55,904 - CV - INFO - script time so far: 673.8552873134613s (11.230921455224355m) (0.18718202425373925h)
+2023-09-02 20:52:55,904 - CV - INFO - ===== BEGINNING OPTION SET (016)==========================================================
+2023-09-02 20:52:55,904 - CV - INFO - 	done: False
+2023-09-02 20:52:55,904 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:52:55,904 - CV - INFO - 	h1: 64
+2023-09-02 20:52:55,904 - CV - INFO - 	h2: 32
+2023-09-02 20:52:55,904 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:52:55,904 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:52:55,904 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:52:55,904 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:52:55,904 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:52:55,904 - CV - INFO - 	theta: 10
+2023-09-02 20:52:55,904 - CV - INFO - 	clip: 5
+2023-09-02 20:52:55,904 - CV - INFO - ----- BEGINNING FOLD SET (016:0)----------------------------------------------------------
+2023-09-02 20:52:55,906 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/0
+2023-09-02 20:52:56,028 - CV - INFO - Begin Pretrain
+2023-09-02 20:52:56,274 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:52:56,274 - CV - INFO - Begin OT Train
+2023-09-02 20:53:00,141 - CV - INFO - OT Train Complete, 15 epochs
+2023-09-02 20:53:00,174 - CV - INFO - fold time: 4.26986026763916s (0.071164337793986m)
+2023-09-02 20:53:00,174 - CV - INFO - ----- BEGINNING FOLD SET (016:1)----------------------------------------------------------
+2023-09-02 20:53:00,176 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/1
+2023-09-02 20:53:00,279 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:00,530 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:53:00,530 - CV - INFO - Begin OT Train
+2023-09-02 20:53:04,550 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:53:04,585 - CV - INFO - fold time: 4.410797834396362s (0.07351329723993937m)
+2023-09-02 20:53:04,585 - CV - INFO - ----- BEGINNING FOLD SET (016:2)----------------------------------------------------------
+2023-09-02 20:53:04,587 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/2
+2023-09-02 20:53:04,696 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:04,946 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:53:04,946 - CV - INFO - Begin OT Train
+2023-09-02 20:53:08,817 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:53:08,854 - CV - INFO - fold time: 4.2685465812683105s (0.07114244302113851m)
+2023-09-02 20:53:08,854 - CV - INFO - ----- BEGINNING FOLD SET (016:3)----------------------------------------------------------
+2023-09-02 20:53:08,855 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/3
+2023-09-02 20:53:08,956 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:09,206 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:53:09,206 - CV - INFO - Begin OT Train
+2023-09-02 20:53:13,371 - CV - INFO - OT Train Complete, 13 epochs
+2023-09-02 20:53:13,405 - CV - INFO - fold time: 4.551128387451172s (0.07585213979085287m)
+2023-09-02 20:53:13,405 - CV - INFO - ----- BEGINNING FOLD SET (016:4)----------------------------------------------------------
+2023-09-02 20:53:13,406 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/4
+2023-09-02 20:53:13,504 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:13,756 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:53:13,756 - CV - INFO - Begin OT Train
+2023-09-02 20:53:17,752 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:53:17,787 - CV - INFO - fold time: 4.381894111633301s (0.07303156852722167m)
+2023-09-02 20:53:17,787 - CV - INFO - ----- BEGINNING FOLD SET (016:5)----------------------------------------------------------
+2023-09-02 20:53:17,788 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/5
+2023-09-02 20:53:17,893 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:18,141 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:53:18,141 - CV - INFO - Begin OT Train
+2023-09-02 20:53:22,032 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:53:22,067 - CV - INFO - fold time: 4.280489921569824s (0.07134149869283041m)
+2023-09-02 20:53:22,067 - CV - INFO - ----- BEGINNING FOLD SET (016:6)----------------------------------------------------------
+2023-09-02 20:53:22,069 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/6
+2023-09-02 20:53:22,182 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:22,431 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:53:22,431 - CV - INFO - Begin OT Train
+2023-09-02 20:53:26,335 - CV - INFO - OT Train Complete, 43 epochs
+2023-09-02 20:53:26,368 - CV - INFO - fold time: 4.301025629043579s (0.07168376048405965m)
+2023-09-02 20:53:26,368 - CV - INFO - ----- BEGINNING FOLD SET (016:7)----------------------------------------------------------
+2023-09-02 20:53:26,370 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/7
+2023-09-02 20:53:26,483 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:26,733 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:53:26,733 - CV - INFO - Begin OT Train
+2023-09-02 20:53:30,576 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 20:53:30,609 - CV - INFO - fold time: 4.240764617919922s (0.07067941029866537m)
+2023-09-02 20:53:30,609 - CV - INFO - ----- BEGINNING FOLD SET (016:8)----------------------------------------------------------
+2023-09-02 20:53:30,611 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/8
+2023-09-02 20:53:30,707 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:30,959 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:53:30,959 - CV - INFO - Begin OT Train
+2023-09-02 20:53:34,994 - CV - INFO - OT Train Complete, 24 epochs
+2023-09-02 20:53:35,028 - CV - INFO - fold time: 4.419266223907471s (0.0736544370651245m)
+2023-09-02 20:53:35,028 - CV - INFO - ----- BEGINNING FOLD SET (016:9)----------------------------------------------------------
+2023-09-02 20:53:35,030 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/016/9
+2023-09-02 20:53:35,135 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:35,384 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:53:35,384 - CV - INFO - Begin OT Train
+2023-09-02 20:53:39,404 - CV - INFO - OT Train Complete, 16 epochs
+2023-09-02 20:53:39,437 - CV - INFO - fold time: 4.408995866775513s (0.07348326444625855m)
+2023-09-02 20:53:39,437 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:53:39,437 - CV - INFO - Mean OT Train Epochs 17.9:
+2023-09-02 20:53:39,437 - CV - INFO - Mean Val Macro F1 : 0.9554275575840043
+2023-09-02 20:53:39,437 - CV - INFO - Mean Eval Stat : 0.9554275575840043 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:53:39,438 - CV - INFO - set time: 43.53330445289612s (0.7255550742149353m)
+2023-09-02 20:53:39,438 - CV - INFO - script time so far: 717.3886342048645s (11.956477236747741m) (0.19927462061246234h)
+2023-09-02 20:53:39,438 - CV - INFO - ===== BEGINNING OPTION SET (017)==========================================================
+2023-09-02 20:53:39,438 - CV - INFO - 	done: False
+2023-09-02 20:53:39,438 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:53:39,438 - CV - INFO - 	h1: 64
+2023-09-02 20:53:39,438 - CV - INFO - 	h2: 32
+2023-09-02 20:53:39,438 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:53:39,438 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:53:39,438 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:53:39,438 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:53:39,438 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:53:39,438 - CV - INFO - 	theta: 30
+2023-09-02 20:53:39,438 - CV - INFO - 	clip: 5
+2023-09-02 20:53:39,438 - CV - INFO - ----- BEGINNING FOLD SET (017:0)----------------------------------------------------------
+2023-09-02 20:53:39,439 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/0
+2023-09-02 20:53:39,562 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:39,809 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:53:39,809 - CV - INFO - Begin OT Train
+2023-09-02 20:53:43,793 - CV - INFO - OT Train Complete, 46 epochs
+2023-09-02 20:53:43,825 - CV - INFO - fold time: 4.387476682662964s (0.07312461137771606m)
+2023-09-02 20:53:43,825 - CV - INFO - ----- BEGINNING FOLD SET (017:1)----------------------------------------------------------
+2023-09-02 20:53:43,827 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/1
+2023-09-02 20:53:43,930 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:44,181 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:53:44,181 - CV - INFO - Begin OT Train
+2023-09-02 20:53:48,215 - CV - INFO - OT Train Complete, 20 epochs
+2023-09-02 20:53:48,250 - CV - INFO - fold time: 4.424581527709961s (0.07374302546183269m)
+2023-09-02 20:53:48,250 - CV - INFO - ----- BEGINNING FOLD SET (017:2)----------------------------------------------------------
+2023-09-02 20:53:48,251 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/2
+2023-09-02 20:53:48,361 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:48,610 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:53:48,610 - CV - INFO - Begin OT Train
+2023-09-02 20:53:52,577 - CV - INFO - OT Train Complete, 38 epochs
+2023-09-02 20:53:52,614 - CV - INFO - fold time: 4.363719701766968s (0.07272866169611612m)
+2023-09-02 20:53:52,614 - CV - INFO - ----- BEGINNING FOLD SET (017:3)----------------------------------------------------------
+2023-09-02 20:53:52,615 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/3
+2023-09-02 20:53:52,716 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:52,965 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:53:52,965 - CV - INFO - Begin OT Train
+2023-09-02 20:53:56,875 - CV - INFO - OT Train Complete, 40 epochs
+2023-09-02 20:53:56,923 - CV - INFO - fold time: 4.309033632278442s (0.0718172272046407m)
+2023-09-02 20:53:56,923 - CV - INFO - ----- BEGINNING FOLD SET (017:4)----------------------------------------------------------
+2023-09-02 20:53:56,924 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/4
+2023-09-02 20:53:57,022 - CV - INFO - Begin Pretrain
+2023-09-02 20:53:57,273 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:53:57,274 - CV - INFO - Begin OT Train
+2023-09-02 20:54:01,251 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:54:01,284 - CV - INFO - fold time: 4.361415863037109s (0.07269026438395182m)
+2023-09-02 20:54:01,284 - CV - INFO - ----- BEGINNING FOLD SET (017:5)----------------------------------------------------------
+2023-09-02 20:54:01,286 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/5
+2023-09-02 20:54:01,390 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:01,639 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:54:01,639 - CV - INFO - Begin OT Train
+2023-09-02 20:54:05,512 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:54:05,544 - CV - INFO - fold time: 4.260406970977783s (0.07100678284962972m)
+2023-09-02 20:54:05,545 - CV - INFO - ----- BEGINNING FOLD SET (017:6)----------------------------------------------------------
+2023-09-02 20:54:05,546 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/6
+2023-09-02 20:54:05,660 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:05,908 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:54:05,908 - CV - INFO - Begin OT Train
+2023-09-02 20:54:09,796 - CV - INFO - OT Train Complete, 41 epochs
+2023-09-02 20:54:09,829 - CV - INFO - fold time: 4.284731388092041s (0.07141218980153402m)
+2023-09-02 20:54:09,829 - CV - INFO - ----- BEGINNING FOLD SET (017:7)----------------------------------------------------------
+2023-09-02 20:54:09,831 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/7
+2023-09-02 20:54:09,944 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:10,195 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:54:10,195 - CV - INFO - Begin OT Train
+2023-09-02 20:54:14,092 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:54:14,127 - CV - INFO - fold time: 4.29748797416687s (0.07162479956944784m)
+2023-09-02 20:54:14,127 - CV - INFO - ----- BEGINNING FOLD SET (017:8)----------------------------------------------------------
+2023-09-02 20:54:14,128 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/8
+2023-09-02 20:54:14,224 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:14,476 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:54:14,476 - CV - INFO - Begin OT Train
+2023-09-02 20:54:18,492 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:54:18,544 - CV - INFO - fold time: 4.417254447937012s (0.07362090746561686m)
+2023-09-02 20:54:18,544 - CV - INFO - ----- BEGINNING FOLD SET (017:9)----------------------------------------------------------
+2023-09-02 20:54:18,546 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/017/9
+2023-09-02 20:54:18,652 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:18,901 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:54:18,901 - CV - INFO - Begin OT Train
+2023-09-02 20:54:22,806 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 20:54:22,839 - CV - INFO - fold time: 4.295041084289551s (0.07158401807149252m)
+2023-09-02 20:54:22,839 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:54:22,839 - CV - INFO - Mean OT Train Epochs 24.5:
+2023-09-02 20:54:22,839 - CV - INFO - Mean Val Macro F1 : 0.9480773801796175
+2023-09-02 20:54:22,839 - CV - INFO - Mean Eval Stat : 0.9480773801796175 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:54:22,839 - CV - INFO - set time: 43.401689529418945s (0.7233614921569824m)
+2023-09-02 20:54:22,839 - CV - INFO - script time so far: 760.7903711795807s (12.679839519659678m) (0.21133065866099462h)
+2023-09-02 20:54:22,839 - CV - INFO - ===== BEGINNING OPTION SET (018)==========================================================
+2023-09-02 20:54:22,839 - CV - INFO - 	done: False
+2023-09-02 20:54:22,839 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 20:54:22,839 - CV - INFO - 	h1: 64
+2023-09-02 20:54:22,839 - CV - INFO - 	h2: 32
+2023-09-02 20:54:22,839 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:54:22,839 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:54:22,839 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:54:22,839 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:54:22,839 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:54:22,839 - CV - INFO - 	theta: 50
+2023-09-02 20:54:22,839 - CV - INFO - 	clip: 5
+2023-09-02 20:54:22,839 - CV - INFO - ----- BEGINNING FOLD SET (018:0)----------------------------------------------------------
+2023-09-02 20:54:22,841 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/0
+2023-09-02 20:54:22,964 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:23,212 - CV - INFO - Pretrain Complete, 39 epochs
+2023-09-02 20:54:23,212 - CV - INFO - Begin OT Train
+2023-09-02 20:54:26,987 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:54:27,019 - CV - INFO - fold time: 4.179683446884155s (0.06966139078140259m)
+2023-09-02 20:54:27,019 - CV - INFO - ----- BEGINNING FOLD SET (018:1)----------------------------------------------------------
+2023-09-02 20:54:27,021 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/1
+2023-09-02 20:54:27,124 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:27,376 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:54:27,376 - CV - INFO - Begin OT Train
+2023-09-02 20:54:31,232 - CV - INFO - OT Train Complete, 13 epochs
+2023-09-02 20:54:31,265 - CV - INFO - fold time: 4.246109962463379s (0.07076849937438964m)
+2023-09-02 20:54:31,265 - CV - INFO - ----- BEGINNING FOLD SET (018:2)----------------------------------------------------------
+2023-09-02 20:54:31,267 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/2
+2023-09-02 20:54:31,376 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:31,625 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:54:31,625 - CV - INFO - Begin OT Train
+2023-09-02 20:54:35,470 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:54:35,502 - CV - INFO - fold time: 4.236545085906982s (0.07060908476511638m)
+2023-09-02 20:54:35,502 - CV - INFO - ----- BEGINNING FOLD SET (018:3)----------------------------------------------------------
+2023-09-02 20:54:35,503 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/3
+2023-09-02 20:54:35,604 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:35,853 - CV - INFO - Pretrain Complete, 24 epochs
+2023-09-02 20:54:35,853 - CV - INFO - Begin OT Train
+2023-09-02 20:54:39,665 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:54:39,698 - CV - INFO - fold time: 4.196012258529663s (0.06993353764216105m)
+2023-09-02 20:54:39,698 - CV - INFO - ----- BEGINNING FOLD SET (018:4)----------------------------------------------------------
+2023-09-02 20:54:39,699 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/4
+2023-09-02 20:54:39,797 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:40,049 - CV - INFO - Pretrain Complete, 72 epochs
+2023-09-02 20:54:40,049 - CV - INFO - Begin OT Train
+2023-09-02 20:54:44,072 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:54:44,104 - CV - INFO - fold time: 4.406026840209961s (0.07343378067016601m)
+2023-09-02 20:54:44,104 - CV - INFO - ----- BEGINNING FOLD SET (018:5)----------------------------------------------------------
+2023-09-02 20:54:44,105 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/5
+2023-09-02 20:54:44,210 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:44,458 - CV - INFO - Pretrain Complete, 77 epochs
+2023-09-02 20:54:44,458 - CV - INFO - Begin OT Train
+2023-09-02 20:54:48,272 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:54:48,304 - CV - INFO - fold time: 4.200272560119629s (0.07000454266866048m)
+2023-09-02 20:54:48,304 - CV - INFO - ----- BEGINNING FOLD SET (018:6)----------------------------------------------------------
+2023-09-02 20:54:48,306 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/6
+2023-09-02 20:54:48,423 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:48,672 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:54:48,672 - CV - INFO - Begin OT Train
+2023-09-02 20:54:52,554 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:54:52,587 - CV - INFO - fold time: 4.282782077789307s (0.07137970129648845m)
+2023-09-02 20:54:52,587 - CV - INFO - ----- BEGINNING FOLD SET (018:7)----------------------------------------------------------
+2023-09-02 20:54:52,589 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/7
+2023-09-02 20:54:52,702 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:52,952 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:54:52,952 - CV - INFO - Begin OT Train
+2023-09-02 20:54:56,906 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:54:56,948 - CV - INFO - fold time: 4.360764980316162s (0.0726794163386027m)
+2023-09-02 20:54:56,948 - CV - INFO - ----- BEGINNING FOLD SET (018:8)----------------------------------------------------------
+2023-09-02 20:54:56,949 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/8
+2023-09-02 20:54:57,044 - CV - INFO - Begin Pretrain
+2023-09-02 20:54:57,297 - CV - INFO - Pretrain Complete, 36 epochs
+2023-09-02 20:54:57,297 - CV - INFO - Begin OT Train
+2023-09-02 20:55:01,235 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:55:01,268 - CV - INFO - fold time: 4.31995153427124s (0.071999192237854m)
+2023-09-02 20:55:01,268 - CV - INFO - ----- BEGINNING FOLD SET (018:9)----------------------------------------------------------
+2023-09-02 20:55:01,269 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/018/9
+2023-09-02 20:55:01,374 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:01,624 - CV - INFO - Pretrain Complete, 51 epochs
+2023-09-02 20:55:01,624 - CV - INFO - Begin OT Train
+2023-09-02 20:55:05,504 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:55:05,536 - CV - INFO - fold time: 4.268646955490112s (0.0711441159248352m)
+2023-09-02 20:55:05,537 - CV - INFO - Mean Pretrain Epochs 45.5:
+2023-09-02 20:55:05,537 - CV - INFO - Mean OT Train Epochs 7.8:
+2023-09-02 20:55:05,537 - CV - INFO - Mean Val Macro F1 : 0.3491007683535168
+2023-09-02 20:55:05,537 - CV - INFO - Mean Eval Stat : 0.3491007683535168 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:55:05,537 - CV - INFO - set time: 42.69733953475952s (0.7116223255793254m)
+2023-09-02 20:55:05,537 - CV - INFO - script time so far: 803.4877519607544s (13.39146253267924m) (0.22319104221132066h)
+2023-09-02 20:55:05,537 - CV - INFO - ===== BEGINNING OPTION SET (019)==========================================================
+2023-09-02 20:55:05,537 - CV - INFO - 	done: False
+2023-09-02 20:55:05,537 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:55:05,537 - CV - INFO - 	h1: 64
+2023-09-02 20:55:05,537 - CV - INFO - 	h2: 32
+2023-09-02 20:55:05,537 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:55:05,537 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:55:05,537 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:55:05,537 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:55:05,537 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:55:05,537 - CV - INFO - 	theta: 10
+2023-09-02 20:55:05,537 - CV - INFO - 	clip: 5
+2023-09-02 20:55:05,537 - CV - INFO - ----- BEGINNING FOLD SET (019:0)----------------------------------------------------------
+2023-09-02 20:55:05,538 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/0
+2023-09-02 20:55:05,661 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:05,908 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:55:05,908 - CV - INFO - Begin OT Train
+2023-09-02 20:55:10,324 - CV - INFO - OT Train Complete, 18 epochs
+2023-09-02 20:55:10,360 - CV - INFO - fold time: 4.8227763175964355s (0.08037960529327393m)
+2023-09-02 20:55:10,360 - CV - INFO - ----- BEGINNING FOLD SET (019:1)----------------------------------------------------------
+2023-09-02 20:55:10,361 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/1
+2023-09-02 20:55:10,465 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:10,717 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:55:10,717 - CV - INFO - Begin OT Train
+2023-09-02 20:55:15,043 - CV - INFO - OT Train Complete, 18 epochs
+2023-09-02 20:55:15,078 - CV - INFO - fold time: 4.718142032623291s (0.07863570054372152m)
+2023-09-02 20:55:15,078 - CV - INFO - ----- BEGINNING FOLD SET (019:2)----------------------------------------------------------
+2023-09-02 20:55:15,079 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/2
+2023-09-02 20:55:15,189 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:15,438 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:55:15,438 - CV - INFO - Begin OT Train
+2023-09-02 20:55:20,403 - CV - INFO - OT Train Complete, 16 epochs
+2023-09-02 20:55:20,437 - CV - INFO - fold time: 5.358954668045044s (0.08931591113408406m)
+2023-09-02 20:55:20,437 - CV - INFO - ----- BEGINNING FOLD SET (019:3)----------------------------------------------------------
+2023-09-02 20:55:20,438 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/3
+2023-09-02 20:55:20,539 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:20,788 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:55:20,789 - CV - INFO - Begin OT Train
+2023-09-02 20:55:25,190 - CV - INFO - OT Train Complete, 13 epochs
+2023-09-02 20:55:25,248 - CV - INFO - fold time: 4.810904026031494s (0.08018173376719157m)
+2023-09-02 20:55:25,248 - CV - INFO - ----- BEGINNING FOLD SET (019:4)----------------------------------------------------------
+2023-09-02 20:55:25,249 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/4
+2023-09-02 20:55:25,347 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:25,598 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:55:25,598 - CV - INFO - Begin OT Train
+2023-09-02 20:55:29,880 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:55:29,914 - CV - INFO - fold time: 4.666528224945068s (0.07777547041575114m)
+2023-09-02 20:55:29,914 - CV - INFO - ----- BEGINNING FOLD SET (019:5)----------------------------------------------------------
+2023-09-02 20:55:29,916 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/5
+2023-09-02 20:55:30,020 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:30,269 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 20:55:30,269 - CV - INFO - Begin OT Train
+2023-09-02 20:55:36,138 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:55:36,174 - CV - INFO - fold time: 6.259302616119385s (0.10432171026865641m)
+2023-09-02 20:55:36,174 - CV - INFO - ----- BEGINNING FOLD SET (019:6)----------------------------------------------------------
+2023-09-02 20:55:36,175 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/6
+2023-09-02 20:55:36,289 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:36,561 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 20:55:36,561 - CV - INFO - Begin OT Train
+2023-09-02 20:55:41,338 - CV - INFO - OT Train Complete, 28 epochs
+2023-09-02 20:55:41,385 - CV - INFO - fold time: 5.211030960083008s (0.08685051600138347m)
+2023-09-02 20:55:41,385 - CV - INFO - ----- BEGINNING FOLD SET (019:7)----------------------------------------------------------
+2023-09-02 20:55:41,386 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/7
+2023-09-02 20:55:41,499 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:41,749 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 20:55:41,749 - CV - INFO - Begin OT Train
+2023-09-02 20:55:46,466 - CV - INFO - OT Train Complete, 17 epochs
+2023-09-02 20:55:46,502 - CV - INFO - fold time: 5.117414951324463s (0.08529024918874105m)
+2023-09-02 20:55:46,502 - CV - INFO - ----- BEGINNING FOLD SET (019:8)----------------------------------------------------------
+2023-09-02 20:55:46,504 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/8
+2023-09-02 20:55:46,599 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:46,851 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:55:46,851 - CV - INFO - Begin OT Train
+2023-09-02 20:55:51,299 - CV - INFO - OT Train Complete, 28 epochs
+2023-09-02 20:55:51,341 - CV - INFO - fold time: 4.83907151222229s (0.0806511918703715m)
+2023-09-02 20:55:51,341 - CV - INFO - ----- BEGINNING FOLD SET (019:9)----------------------------------------------------------
+2023-09-02 20:55:51,343 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/019/9
+2023-09-02 20:55:51,449 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:51,699 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 20:55:51,699 - CV - INFO - Begin OT Train
+2023-09-02 20:55:56,283 - CV - INFO - OT Train Complete, 44 epochs
+2023-09-02 20:55:56,319 - CV - INFO - fold time: 4.977602005004883s (0.08296003341674804m)
+2023-09-02 20:55:56,319 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 20:55:56,319 - CV - INFO - Mean OT Train Epochs 19.5:
+2023-09-02 20:55:56,319 - CV - INFO - Mean Val Macro F1 : 0.9550524918121097
+2023-09-02 20:55:56,319 - CV - INFO - Mean Eval Stat : 0.9550524918121097 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:55:56,319 - CV - INFO - set time: 50.78227663040161s (0.8463712771733601m)
+2023-09-02 20:55:56,319 - CV - INFO - script time so far: 854.2700724601746s (14.23783454100291m) (0.23729724235004848h)
+2023-09-02 20:55:56,319 - CV - INFO - ===== BEGINNING OPTION SET (020)==========================================================
+2023-09-02 20:55:56,319 - CV - INFO - 	done: False
+2023-09-02 20:55:56,319 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:55:56,319 - CV - INFO - 	h1: 64
+2023-09-02 20:55:56,319 - CV - INFO - 	h2: 32
+2023-09-02 20:55:56,319 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:55:56,319 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:55:56,319 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:55:56,319 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:55:56,319 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:55:56,319 - CV - INFO - 	theta: 30
+2023-09-02 20:55:56,319 - CV - INFO - 	clip: 5
+2023-09-02 20:55:56,319 - CV - INFO - ----- BEGINNING FOLD SET (020:0)----------------------------------------------------------
+2023-09-02 20:55:56,321 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/0
+2023-09-02 20:55:56,443 - CV - INFO - Begin Pretrain
+2023-09-02 20:55:56,691 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:55:56,691 - CV - INFO - Begin OT Train
+2023-09-02 20:56:00,946 - CV - INFO - OT Train Complete, 32 epochs
+2023-09-02 20:56:00,990 - CV - INFO - fold time: 4.671162843704224s (0.07785271406173706m)
+2023-09-02 20:56:00,990 - CV - INFO - ----- BEGINNING FOLD SET (020:1)----------------------------------------------------------
+2023-09-02 20:56:00,992 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/1
+2023-09-02 20:56:01,095 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:01,380 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:56:01,380 - CV - INFO - Begin OT Train
+2023-09-02 20:56:05,526 - CV - INFO - OT Train Complete, 34 epochs
+2023-09-02 20:56:05,564 - CV - INFO - fold time: 4.5740978717803955s (0.07623496452967325m)
+2023-09-02 20:56:05,564 - CV - INFO - ----- BEGINNING FOLD SET (020:2)----------------------------------------------------------
+2023-09-02 20:56:05,566 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/2
+2023-09-02 20:56:05,675 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:05,938 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:56:05,938 - CV - INFO - Begin OT Train
+2023-09-02 20:56:10,409 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:56:10,450 - CV - INFO - fold time: 4.885075092315674s (0.08141791820526123m)
+2023-09-02 20:56:10,450 - CV - INFO - ----- BEGINNING FOLD SET (020:3)----------------------------------------------------------
+2023-09-02 20:56:10,451 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/3
+2023-09-02 20:56:10,553 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:10,804 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:56:10,804 - CV - INFO - Begin OT Train
+2023-09-02 20:56:15,023 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:56:15,072 - CV - INFO - fold time: 4.62265944480896s (0.07704432408014933m)
+2023-09-02 20:56:15,072 - CV - INFO - ----- BEGINNING FOLD SET (020:4)----------------------------------------------------------
+2023-09-02 20:56:15,074 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/4
+2023-09-02 20:56:15,173 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:15,425 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:56:15,425 - CV - INFO - Begin OT Train
+2023-09-02 20:56:19,676 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 20:56:19,710 - CV - INFO - fold time: 4.6378257274627686s (0.07729709545771281m)
+2023-09-02 20:56:19,710 - CV - INFO - ----- BEGINNING FOLD SET (020:5)----------------------------------------------------------
+2023-09-02 20:56:19,712 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/5
+2023-09-02 20:56:19,816 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:20,066 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 20:56:20,066 - CV - INFO - Begin OT Train
+2023-09-02 20:56:25,468 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:56:25,517 - CV - INFO - fold time: 5.807123422622681s (0.09678539037704467m)
+2023-09-02 20:56:25,517 - CV - INFO - ----- BEGINNING FOLD SET (020:6)----------------------------------------------------------
+2023-09-02 20:56:25,519 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/6
+2023-09-02 20:56:25,633 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:25,882 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 20:56:25,882 - CV - INFO - Begin OT Train
+2023-09-02 20:56:30,289 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:56:30,325 - CV - INFO - fold time: 4.807873487472534s (0.0801312247912089m)
+2023-09-02 20:56:30,325 - CV - INFO - ----- BEGINNING FOLD SET (020:7)----------------------------------------------------------
+2023-09-02 20:56:30,327 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/7
+2023-09-02 20:56:30,440 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:30,690 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 20:56:30,690 - CV - INFO - Begin OT Train
+2023-09-02 20:56:34,916 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:56:34,948 - CV - INFO - fold time: 4.622617721557617s (0.07704362869262696m)
+2023-09-02 20:56:34,948 - CV - INFO - ----- BEGINNING FOLD SET (020:8)----------------------------------------------------------
+2023-09-02 20:56:34,949 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/8
+2023-09-02 20:56:35,044 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:35,297 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:56:35,297 - CV - INFO - Begin OT Train
+2023-09-02 20:56:39,524 - CV - INFO - OT Train Complete, 26 epochs
+2023-09-02 20:56:39,559 - CV - INFO - fold time: 4.61155104637146s (0.076859184106191m)
+2023-09-02 20:56:39,559 - CV - INFO - ----- BEGINNING FOLD SET (020:9)----------------------------------------------------------
+2023-09-02 20:56:39,561 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/020/9
+2023-09-02 20:56:39,666 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:39,937 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 20:56:39,937 - CV - INFO - Begin OT Train
+2023-09-02 20:56:44,116 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:56:44,148 - CV - INFO - fold time: 4.589095830917358s (0.0764849305152893m)
+2023-09-02 20:56:44,148 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 20:56:44,149 - CV - INFO - Mean OT Train Epochs 15.5:
+2023-09-02 20:56:44,149 - CV - INFO - Mean Val Macro F1 : 0.9564841463552417
+2023-09-02 20:56:44,149 - CV - INFO - Mean Eval Stat : 0.9564841463552417 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:56:44,149 - CV - INFO - set time: 47.82962918281555s (0.7971604863802592m)
+2023-09-02 20:56:44,149 - CV - INFO - script time so far: 902.0997490882874s (15.034995818138123m) (0.2505832636356354h)
+2023-09-02 20:56:44,149 - CV - INFO - ===== BEGINNING OPTION SET (021)==========================================================
+2023-09-02 20:56:44,149 - CV - INFO - 	done: False
+2023-09-02 20:56:44,149 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:56:44,149 - CV - INFO - 	h1: 64
+2023-09-02 20:56:44,149 - CV - INFO - 	h2: 32
+2023-09-02 20:56:44,149 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:56:44,149 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:56:44,149 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:56:44,149 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:56:44,149 - CV - INFO - 	lambda: 0.01
+2023-09-02 20:56:44,149 - CV - INFO - 	theta: 50
+2023-09-02 20:56:44,149 - CV - INFO - 	clip: 5
+2023-09-02 20:56:44,149 - CV - INFO - ----- BEGINNING FOLD SET (021:0)----------------------------------------------------------
+2023-09-02 20:56:44,151 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/0
+2023-09-02 20:56:44,273 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:44,567 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:56:44,567 - CV - INFO - Begin OT Train
+2023-09-02 20:56:48,892 - CV - INFO - OT Train Complete, 34 epochs
+2023-09-02 20:56:48,926 - CV - INFO - fold time: 4.776730537414551s (0.07961217562357585m)
+2023-09-02 20:56:48,926 - CV - INFO - ----- BEGINNING FOLD SET (021:1)----------------------------------------------------------
+2023-09-02 20:56:48,927 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/1
+2023-09-02 20:56:49,030 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:49,282 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:56:49,282 - CV - INFO - Begin OT Train
+2023-09-02 20:56:53,213 - CV - INFO - OT Train Complete, 47 epochs
+2023-09-02 20:56:53,252 - CV - INFO - fold time: 4.326380968093872s (0.0721063494682312m)
+2023-09-02 20:56:53,252 - CV - INFO - ----- BEGINNING FOLD SET (021:2)----------------------------------------------------------
+2023-09-02 20:56:53,254 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/2
+2023-09-02 20:56:53,363 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:53,613 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:56:53,613 - CV - INFO - Begin OT Train
+2023-09-02 20:56:57,906 - CV - INFO - OT Train Complete, 20 epochs
+2023-09-02 20:56:57,961 - CV - INFO - fold time: 4.709378719329834s (0.0784896453221639m)
+2023-09-02 20:56:57,961 - CV - INFO - ----- BEGINNING FOLD SET (021:3)----------------------------------------------------------
+2023-09-02 20:56:57,963 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/3
+2023-09-02 20:56:58,065 - CV - INFO - Begin Pretrain
+2023-09-02 20:56:58,336 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:56:58,336 - CV - INFO - Begin OT Train
+2023-09-02 20:57:02,555 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:57:02,587 - CV - INFO - fold time: 4.6253392696380615s (0.07708898782730103m)
+2023-09-02 20:57:02,587 - CV - INFO - ----- BEGINNING FOLD SET (021:4)----------------------------------------------------------
+2023-09-02 20:57:02,588 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/4
+2023-09-02 20:57:02,687 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:02,938 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:57:02,938 - CV - INFO - Begin OT Train
+2023-09-02 20:57:07,087 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:57:07,122 - CV - INFO - fold time: 4.535533666610718s (0.0755922277768453m)
+2023-09-02 20:57:07,122 - CV - INFO - ----- BEGINNING FOLD SET (021:5)----------------------------------------------------------
+2023-09-02 20:57:07,124 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/5
+2023-09-02 20:57:07,229 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:07,478 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 20:57:07,478 - CV - INFO - Begin OT Train
+2023-09-02 20:57:12,987 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:57:13,020 - CV - INFO - fold time: 5.897996187210083s (0.09829993645350138m)
+2023-09-02 20:57:13,020 - CV - INFO - ----- BEGINNING FOLD SET (021:6)----------------------------------------------------------
+2023-09-02 20:57:13,022 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/6
+2023-09-02 20:57:13,135 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:13,395 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 20:57:13,395 - CV - INFO - Begin OT Train
+2023-09-02 20:57:17,492 - CV - INFO - OT Train Complete, 31 epochs
+2023-09-02 20:57:17,529 - CV - INFO - fold time: 4.508722543716431s (0.07514537572860717m)
+2023-09-02 20:57:17,529 - CV - INFO - ----- BEGINNING FOLD SET (021:7)----------------------------------------------------------
+2023-09-02 20:57:17,531 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/7
+2023-09-02 20:57:17,644 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:17,894 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 20:57:17,894 - CV - INFO - Begin OT Train
+2023-09-02 20:57:21,969 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:57:22,002 - CV - INFO - fold time: 4.47334623336792s (0.074555770556132m)
+2023-09-02 20:57:22,002 - CV - INFO - ----- BEGINNING FOLD SET (021:8)----------------------------------------------------------
+2023-09-02 20:57:22,004 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/8
+2023-09-02 20:57:22,100 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:22,353 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:57:22,353 - CV - INFO - Begin OT Train
+2023-09-02 20:57:26,515 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 20:57:26,549 - CV - INFO - fold time: 4.546411514282227s (0.07577352523803711m)
+2023-09-02 20:57:26,549 - CV - INFO - ----- BEGINNING FOLD SET (021:9)----------------------------------------------------------
+2023-09-02 20:57:26,551 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/021/9
+2023-09-02 20:57:26,656 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:26,906 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 20:57:26,906 - CV - INFO - Begin OT Train
+2023-09-02 20:57:31,166 - CV - INFO - OT Train Complete, 17 epochs
+2023-09-02 20:57:31,200 - CV - INFO - fold time: 4.65123176574707s (0.07752052942911784m)
+2023-09-02 20:57:31,200 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 20:57:31,200 - CV - INFO - Mean OT Train Epochs 18.2:
+2023-09-02 20:57:31,200 - CV - INFO - Mean Val Macro F1 : 0.9541252256853416
+2023-09-02 20:57:31,200 - CV - INFO - Mean Eval Stat : 0.9541252256853416 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:57:31,200 - CV - INFO - set time: 47.05162167549133s (0.7841936945915222m)
+2023-09-02 20:57:31,200 - CV - INFO - script time so far: 949.1514139175415s (15.819190231959025m) (0.2636531705326504h)
+2023-09-02 20:57:31,200 - CV - INFO - ===== BEGINNING OPTION SET (022)==========================================================
+2023-09-02 20:57:31,200 - CV - INFO - 	done: False
+2023-09-02 20:57:31,200 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:57:31,200 - CV - INFO - 	h1: 64
+2023-09-02 20:57:31,200 - CV - INFO - 	h2: 32
+2023-09-02 20:57:31,200 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:57:31,200 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:57:31,200 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:57:31,200 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:57:31,200 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:57:31,200 - CV - INFO - 	theta: 10
+2023-09-02 20:57:31,200 - CV - INFO - 	clip: 5
+2023-09-02 20:57:31,201 - CV - INFO - ----- BEGINNING FOLD SET (022:0)----------------------------------------------------------
+2023-09-02 20:57:31,202 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/0
+2023-09-02 20:57:31,325 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:31,572 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:57:31,572 - CV - INFO - Begin OT Train
+2023-09-02 20:57:35,452 - CV - INFO - OT Train Complete, 28 epochs
+2023-09-02 20:57:35,489 - CV - INFO - fold time: 4.288726329803467s (0.07147877216339112m)
+2023-09-02 20:57:35,489 - CV - INFO - ----- BEGINNING FOLD SET (022:1)----------------------------------------------------------
+2023-09-02 20:57:35,491 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/1
+2023-09-02 20:57:35,593 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:35,845 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:57:35,845 - CV - INFO - Begin OT Train
+2023-09-02 20:57:39,957 - CV - INFO - OT Train Complete, 12 epochs
+2023-09-02 20:57:39,991 - CV - INFO - fold time: 4.50124979019165s (0.07502082983652751m)
+2023-09-02 20:57:39,991 - CV - INFO - ----- BEGINNING FOLD SET (022:2)----------------------------------------------------------
+2023-09-02 20:57:39,992 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/2
+2023-09-02 20:57:40,102 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:40,351 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:57:40,351 - CV - INFO - Begin OT Train
+2023-09-02 20:57:44,386 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:57:44,420 - CV - INFO - fold time: 4.429747819900513s (0.07382913033167521m)
+2023-09-02 20:57:44,420 - CV - INFO - ----- BEGINNING FOLD SET (022:3)----------------------------------------------------------
+2023-09-02 20:57:44,422 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/3
+2023-09-02 20:57:44,557 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:44,807 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:57:44,807 - CV - INFO - Begin OT Train
+2023-09-02 20:57:48,816 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:57:48,850 - CV - INFO - fold time: 4.429314136505127s (0.07382190227508545m)
+2023-09-02 20:57:48,850 - CV - INFO - ----- BEGINNING FOLD SET (022:4)----------------------------------------------------------
+2023-09-02 20:57:48,851 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/4
+2023-09-02 20:57:48,949 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:49,201 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:57:49,201 - CV - INFO - Begin OT Train
+2023-09-02 20:57:53,202 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 20:57:53,234 - CV - INFO - fold time: 4.384245872497559s (0.07307076454162598m)
+2023-09-02 20:57:53,234 - CV - INFO - ----- BEGINNING FOLD SET (022:5)----------------------------------------------------------
+2023-09-02 20:57:53,236 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/5
+2023-09-02 20:57:53,340 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:53,650 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 20:57:53,650 - CV - INFO - Begin OT Train
+2023-09-02 20:57:57,669 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:57:57,706 - CV - INFO - fold time: 4.471818685531616s (0.07453031142552693m)
+2023-09-02 20:57:57,706 - CV - INFO - ----- BEGINNING FOLD SET (022:6)----------------------------------------------------------
+2023-09-02 20:57:57,707 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/6
+2023-09-02 20:57:57,820 - CV - INFO - Begin Pretrain
+2023-09-02 20:57:58,070 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 20:57:58,070 - CV - INFO - Begin OT Train
+2023-09-02 20:58:02,040 - CV - INFO - OT Train Complete, 36 epochs
+2023-09-02 20:58:02,073 - CV - INFO - fold time: 4.367698907852173s (0.07279498179753621m)
+2023-09-02 20:58:02,073 - CV - INFO - ----- BEGINNING FOLD SET (022:7)----------------------------------------------------------
+2023-09-02 20:58:02,075 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/7
+2023-09-02 20:58:02,188 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:02,443 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 20:58:02,443 - CV - INFO - Begin OT Train
+2023-09-02 20:58:06,314 - CV - INFO - OT Train Complete, 35 epochs
+2023-09-02 20:58:06,359 - CV - INFO - fold time: 4.285818338394165s (0.07143030563990276m)
+2023-09-02 20:58:06,359 - CV - INFO - ----- BEGINNING FOLD SET (022:8)----------------------------------------------------------
+2023-09-02 20:58:06,361 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/8
+2023-09-02 20:58:06,457 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:06,709 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:58:06,709 - CV - INFO - Begin OT Train
+2023-09-02 20:58:10,724 - CV - INFO - OT Train Complete, 49 epochs
+2023-09-02 20:58:10,760 - CV - INFO - fold time: 4.4008262157440186s (0.07334710359573364m)
+2023-09-02 20:58:10,760 - CV - INFO - ----- BEGINNING FOLD SET (022:9)----------------------------------------------------------
+2023-09-02 20:58:10,762 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/022/9
+2023-09-02 20:58:10,868 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:11,118 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 20:58:11,118 - CV - INFO - Begin OT Train
+2023-09-02 20:58:15,288 - CV - INFO - OT Train Complete, 14 epochs
+2023-09-02 20:58:15,322 - CV - INFO - fold time: 4.562215328216553s (0.07603692213694255m)
+2023-09-02 20:58:15,322 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 20:58:15,322 - CV - INFO - Mean OT Train Epochs 21.8:
+2023-09-02 20:58:15,322 - CV - INFO - Mean Val Macro F1 : 0.9577923703017468
+2023-09-02 20:58:15,322 - CV - INFO - Mean Eval Stat : 0.9577923703017468 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:58:15,323 - CV - INFO - set time: 44.12220907211304s (0.735370151201884m)
+2023-09-02 20:58:15,323 - CV - INFO - script time so far: 993.2736663818359s (16.55456110636393m) (0.2759093517727322h)
+2023-09-02 20:58:15,323 - CV - INFO - ===== BEGINNING OPTION SET (023)==========================================================
+2023-09-02 20:58:15,323 - CV - INFO - 	done: False
+2023-09-02 20:58:15,323 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:58:15,323 - CV - INFO - 	h1: 64
+2023-09-02 20:58:15,323 - CV - INFO - 	h2: 32
+2023-09-02 20:58:15,323 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:58:15,323 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:58:15,323 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:58:15,323 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:58:15,323 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:58:15,323 - CV - INFO - 	theta: 30
+2023-09-02 20:58:15,323 - CV - INFO - 	clip: 5
+2023-09-02 20:58:15,323 - CV - INFO - ----- BEGINNING FOLD SET (023:0)----------------------------------------------------------
+2023-09-02 20:58:15,324 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/0
+2023-09-02 20:58:15,446 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:15,694 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:58:15,694 - CV - INFO - Begin OT Train
+2023-09-02 20:58:19,554 - CV - INFO - OT Train Complete, 31 epochs
+2023-09-02 20:58:19,587 - CV - INFO - fold time: 4.264647722244263s (0.07107746203740438m)
+2023-09-02 20:58:19,587 - CV - INFO - ----- BEGINNING FOLD SET (023:1)----------------------------------------------------------
+2023-09-02 20:58:19,589 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/1
+2023-09-02 20:58:19,692 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:19,944 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:58:19,944 - CV - INFO - Begin OT Train
+2023-09-02 20:58:23,959 - CV - INFO - OT Train Complete, 42 epochs
+2023-09-02 20:58:23,993 - CV - INFO - fold time: 4.406041860580444s (0.07343403100967408m)
+2023-09-02 20:58:23,993 - CV - INFO - ----- BEGINNING FOLD SET (023:2)----------------------------------------------------------
+2023-09-02 20:58:23,995 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/2
+2023-09-02 20:58:24,105 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:24,354 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:58:24,354 - CV - INFO - Begin OT Train
+2023-09-02 20:58:28,381 - CV - INFO - OT Train Complete, 26 epochs
+2023-09-02 20:58:28,414 - CV - INFO - fold time: 4.420793056488037s (0.07367988427480061m)
+2023-09-02 20:58:28,414 - CV - INFO - ----- BEGINNING FOLD SET (023:3)----------------------------------------------------------
+2023-09-02 20:58:28,416 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/3
+2023-09-02 20:58:28,517 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:28,767 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:58:28,767 - CV - INFO - Begin OT Train
+2023-09-02 20:58:32,713 - CV - INFO - OT Train Complete, 22 epochs
+2023-09-02 20:58:32,749 - CV - INFO - fold time: 4.335092306137085s (0.07225153843561809m)
+2023-09-02 20:58:32,749 - CV - INFO - ----- BEGINNING FOLD SET (023:4)----------------------------------------------------------
+2023-09-02 20:58:32,751 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/4
+2023-09-02 20:58:32,849 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:33,101 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:58:33,101 - CV - INFO - Begin OT Train
+2023-09-02 20:58:37,065 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:58:37,098 - CV - INFO - fold time: 4.349005699157715s (0.07248342831929525m)
+2023-09-02 20:58:37,098 - CV - INFO - ----- BEGINNING FOLD SET (023:5)----------------------------------------------------------
+2023-09-02 20:58:37,100 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/5
+2023-09-02 20:58:37,205 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:37,454 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 20:58:37,454 - CV - INFO - Begin OT Train
+2023-09-02 20:58:41,425 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:58:41,459 - CV - INFO - fold time: 4.360470294952393s (0.07267450491587321m)
+2023-09-02 20:58:41,459 - CV - INFO - ----- BEGINNING FOLD SET (023:6)----------------------------------------------------------
+2023-09-02 20:58:41,461 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/6
+2023-09-02 20:58:41,574 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:41,823 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 20:58:41,823 - CV - INFO - Begin OT Train
+2023-09-02 20:58:45,666 - CV - INFO - OT Train Complete, 46 epochs
+2023-09-02 20:58:45,699 - CV - INFO - fold time: 4.239704370498657s (0.07066173950831095m)
+2023-09-02 20:58:45,699 - CV - INFO - ----- BEGINNING FOLD SET (023:7)----------------------------------------------------------
+2023-09-02 20:58:45,700 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/7
+2023-09-02 20:58:45,813 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:46,064 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 20:58:46,064 - CV - INFO - Begin OT Train
+2023-09-02 20:58:49,993 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 20:58:50,028 - CV - INFO - fold time: 4.32951283454895s (0.07215854724248251m)
+2023-09-02 20:58:50,028 - CV - INFO - ----- BEGINNING FOLD SET (023:8)----------------------------------------------------------
+2023-09-02 20:58:50,030 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/8
+2023-09-02 20:58:50,125 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:50,391 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:58:50,391 - CV - INFO - Begin OT Train
+2023-09-02 20:58:54,453 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 20:58:54,487 - CV - INFO - fold time: 4.458992004394531s (0.07431653340657553m)
+2023-09-02 20:58:54,487 - CV - INFO - ----- BEGINNING FOLD SET (023:9)----------------------------------------------------------
+2023-09-02 20:58:54,489 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/023/9
+2023-09-02 20:58:54,594 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:54,844 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 20:58:54,844 - CV - INFO - Begin OT Train
+2023-09-02 20:58:58,737 - CV - INFO - OT Train Complete, 19 epochs
+2023-09-02 20:58:58,770 - CV - INFO - fold time: 4.282983303070068s (0.0713830550511678m)
+2023-09-02 20:58:58,770 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 20:58:58,770 - CV - INFO - Mean OT Train Epochs 24.1:
+2023-09-02 20:58:58,770 - CV - INFO - Mean Val Macro F1 : 0.956494175112778
+2023-09-02 20:58:58,770 - CV - INFO - Mean Eval Stat : 0.956494175112778 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:58:58,770 - CV - INFO - set time: 43.447794675827026s (0.7241299112637838m)
+2023-09-02 20:58:58,770 - CV - INFO - script time so far: 1036.721507549286s (17.278691792488097m) (0.2879781965414683h)
+2023-09-02 20:58:58,770 - CV - INFO - ===== BEGINNING OPTION SET (024)==========================================================
+2023-09-02 20:58:58,770 - CV - INFO - 	done: False
+2023-09-02 20:58:58,770 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:58:58,770 - CV - INFO - 	h1: 64
+2023-09-02 20:58:58,771 - CV - INFO - 	h2: 32
+2023-09-02 20:58:58,771 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:58:58,771 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:58:58,771 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:58:58,771 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:58:58,771 - CV - INFO - 	lambda: 0.03
+2023-09-02 20:58:58,771 - CV - INFO - 	theta: 50
+2023-09-02 20:58:58,771 - CV - INFO - 	clip: 5
+2023-09-02 20:58:58,771 - CV - INFO - ----- BEGINNING FOLD SET (024:0)----------------------------------------------------------
+2023-09-02 20:58:58,772 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/0
+2023-09-02 20:58:58,895 - CV - INFO - Begin Pretrain
+2023-09-02 20:58:59,142 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:58:59,142 - CV - INFO - Begin OT Train
+2023-09-02 20:59:02,998 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:59:03,031 - CV - INFO - fold time: 4.260281801223755s (0.07100469668706258m)
+2023-09-02 20:59:03,031 - CV - INFO - ----- BEGINNING FOLD SET (024:1)----------------------------------------------------------
+2023-09-02 20:59:03,032 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/1
+2023-09-02 20:59:03,135 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:03,404 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:59:03,404 - CV - INFO - Begin OT Train
+2023-09-02 20:59:07,357 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:59:07,394 - CV - INFO - fold time: 4.362745046615601s (0.07271241744359334m)
+2023-09-02 20:59:07,394 - CV - INFO - ----- BEGINNING FOLD SET (024:2)----------------------------------------------------------
+2023-09-02 20:59:07,395 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/2
+2023-09-02 20:59:07,505 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:07,755 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:59:07,755 - CV - INFO - Begin OT Train
+2023-09-02 20:59:11,571 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 20:59:11,603 - CV - INFO - fold time: 4.20979380607605s (0.0701632301012675m)
+2023-09-02 20:59:11,603 - CV - INFO - ----- BEGINNING FOLD SET (024:3)----------------------------------------------------------
+2023-09-02 20:59:11,605 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/3
+2023-09-02 20:59:11,711 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:11,962 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:59:11,962 - CV - INFO - Begin OT Train
+2023-09-02 20:59:15,980 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:59:16,019 - CV - INFO - fold time: 4.415789842605591s (0.07359649737675984m)
+2023-09-02 20:59:16,019 - CV - INFO - ----- BEGINNING FOLD SET (024:4)----------------------------------------------------------
+2023-09-02 20:59:16,021 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/4
+2023-09-02 20:59:16,119 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:16,371 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:59:16,371 - CV - INFO - Begin OT Train
+2023-09-02 20:59:20,426 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:59:20,462 - CV - INFO - fold time: 4.44225549697876s (0.07403759161631267m)
+2023-09-02 20:59:20,462 - CV - INFO - ----- BEGINNING FOLD SET (024:5)----------------------------------------------------------
+2023-09-02 20:59:20,463 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/5
+2023-09-02 20:59:20,570 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:20,819 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 20:59:20,819 - CV - INFO - Begin OT Train
+2023-09-02 20:59:24,658 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:59:24,691 - CV - INFO - fold time: 4.229135990142822s (0.0704855998357137m)
+2023-09-02 20:59:24,691 - CV - INFO - ----- BEGINNING FOLD SET (024:6)----------------------------------------------------------
+2023-09-02 20:59:24,692 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/6
+2023-09-02 20:59:24,806 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:25,059 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 20:59:25,059 - CV - INFO - Begin OT Train
+2023-09-02 20:59:28,915 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:59:28,945 - CV - INFO - fold time: 4.254138946533203s (0.07090231577555338m)
+2023-09-02 20:59:28,945 - CV - INFO - ----- BEGINNING FOLD SET (024:7)----------------------------------------------------------
+2023-09-02 20:59:28,947 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/7
+2023-09-02 20:59:29,060 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:29,310 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 20:59:29,310 - CV - INFO - Begin OT Train
+2023-09-02 20:59:33,248 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:59:33,283 - CV - INFO - fold time: 4.338452577590942s (0.07230754295984904m)
+2023-09-02 20:59:33,283 - CV - INFO - ----- BEGINNING FOLD SET (024:8)----------------------------------------------------------
+2023-09-02 20:59:33,285 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/8
+2023-09-02 20:59:33,381 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:33,634 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 20:59:33,634 - CV - INFO - Begin OT Train
+2023-09-02 20:59:37,561 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 20:59:37,594 - CV - INFO - fold time: 4.310198068618774s (0.07183663447697958m)
+2023-09-02 20:59:37,594 - CV - INFO - ----- BEGINNING FOLD SET (024:9)----------------------------------------------------------
+2023-09-02 20:59:37,595 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/024/9
+2023-09-02 20:59:37,701 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:37,951 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 20:59:37,951 - CV - INFO - Begin OT Train
+2023-09-02 20:59:41,768 - CV - INFO - OT Train Complete, 9 epochs
+2023-09-02 20:59:41,801 - CV - INFO - fold time: 4.207304239273071s (0.07012173732121786m)
+2023-09-02 20:59:41,801 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 20:59:41,801 - CV - INFO - Mean OT Train Epochs 7.5:
+2023-09-02 20:59:41,801 - CV - INFO - Mean Val Macro F1 : 0.3491007683535168
+2023-09-02 20:59:41,801 - CV - INFO - Mean Eval Stat : 0.3491007683535168 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 20:59:41,801 - CV - INFO - set time: 43.03065633773804s (0.7171776056289673m)
+2023-09-02 20:59:41,801 - CV - INFO - script time so far: 1079.7522101402283s (17.995870169003805m) (0.29993116948339676h)
+2023-09-02 20:59:41,801 - CV - INFO - ===== BEGINNING OPTION SET (025)==========================================================
+2023-09-02 20:59:41,801 - CV - INFO - 	done: False
+2023-09-02 20:59:41,801 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 20:59:41,801 - CV - INFO - 	h1: 64
+2023-09-02 20:59:41,801 - CV - INFO - 	h2: 32
+2023-09-02 20:59:41,801 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 20:59:41,801 - CV - INFO - 	dropout: 0.0
+2023-09-02 20:59:41,801 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:59:41,801 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 20:59:41,801 - CV - INFO - 	lambda: 0.05
+2023-09-02 20:59:41,801 - CV - INFO - 	theta: 10
+2023-09-02 20:59:41,801 - CV - INFO - 	clip: 5
+2023-09-02 20:59:41,801 - CV - INFO - ----- BEGINNING FOLD SET (025:0)----------------------------------------------------------
+2023-09-02 20:59:41,803 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/0
+2023-09-02 20:59:41,926 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:42,174 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 20:59:42,174 - CV - INFO - Begin OT Train
+2023-09-02 20:59:46,112 - CV - INFO - OT Train Complete, 28 epochs
+2023-09-02 20:59:46,148 - CV - INFO - fold time: 4.3462512493133545s (0.07243752082188924m)
+2023-09-02 20:59:46,148 - CV - INFO - ----- BEGINNING FOLD SET (025:1)----------------------------------------------------------
+2023-09-02 20:59:46,149 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/1
+2023-09-02 20:59:46,252 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:46,504 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 20:59:46,504 - CV - INFO - Begin OT Train
+2023-09-02 20:59:50,558 - CV - INFO - OT Train Complete, 32 epochs
+2023-09-02 20:59:50,590 - CV - INFO - fold time: 4.442900657653809s (0.07404834429423014m)
+2023-09-02 20:59:50,591 - CV - INFO - ----- BEGINNING FOLD SET (025:2)----------------------------------------------------------
+2023-09-02 20:59:50,592 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/2
+2023-09-02 20:59:50,702 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:50,951 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 20:59:50,951 - CV - INFO - Begin OT Train
+2023-09-02 20:59:54,988 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 20:59:55,018 - CV - INFO - fold time: 4.427915811538696s (0.07379859685897827m)
+2023-09-02 20:59:55,018 - CV - INFO - ----- BEGINNING FOLD SET (025:3)----------------------------------------------------------
+2023-09-02 20:59:55,020 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/3
+2023-09-02 20:59:55,121 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:55,371 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 20:59:55,371 - CV - INFO - Begin OT Train
+2023-09-02 20:59:59,464 - CV - INFO - OT Train Complete, 37 epochs
+2023-09-02 20:59:59,498 - CV - INFO - fold time: 4.4799158573150635s (0.07466526428858439m)
+2023-09-02 20:59:59,498 - CV - INFO - ----- BEGINNING FOLD SET (025:4)----------------------------------------------------------
+2023-09-02 20:59:59,500 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/4
+2023-09-02 20:59:59,598 - CV - INFO - Begin Pretrain
+2023-09-02 20:59:59,859 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 20:59:59,859 - CV - INFO - Begin OT Train
+2023-09-02 21:00:03,877 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 21:00:03,914 - CV - INFO - fold time: 4.415498495101929s (0.07359164158503215m)
+2023-09-02 21:00:03,914 - CV - INFO - ----- BEGINNING FOLD SET (025:5)----------------------------------------------------------
+2023-09-02 21:00:03,916 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/5
+2023-09-02 21:00:04,020 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:04,269 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 21:00:04,269 - CV - INFO - Begin OT Train
+2023-09-02 21:00:08,232 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 21:00:08,265 - CV - INFO - fold time: 4.350677728652954s (0.07251129547754924m)
+2023-09-02 21:00:08,265 - CV - INFO - ----- BEGINNING FOLD SET (025:6)----------------------------------------------------------
+2023-09-02 21:00:08,266 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/6
+2023-09-02 21:00:08,380 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:08,629 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 21:00:08,629 - CV - INFO - Begin OT Train
+2023-09-02 21:00:12,498 - CV - INFO - OT Train Complete, 35 epochs
+2023-09-02 21:00:12,533 - CV - INFO - fold time: 4.268427848815918s (0.07114046414693197m)
+2023-09-02 21:00:12,533 - CV - INFO - ----- BEGINNING FOLD SET (025:7)----------------------------------------------------------
+2023-09-02 21:00:12,535 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/7
+2023-09-02 21:00:12,648 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:12,898 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 21:00:12,898 - CV - INFO - Begin OT Train
+2023-09-02 21:00:16,762 - CV - INFO - OT Train Complete, 43 epochs
+2023-09-02 21:00:16,796 - CV - INFO - fold time: 4.262570381164551s (0.07104283968607585m)
+2023-09-02 21:00:16,796 - CV - INFO - ----- BEGINNING FOLD SET (025:8)----------------------------------------------------------
+2023-09-02 21:00:16,797 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/8
+2023-09-02 21:00:16,893 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:17,145 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 21:00:17,145 - CV - INFO - Begin OT Train
+2023-09-02 21:00:21,056 - CV - INFO - OT Train Complete, 37 epochs
+2023-09-02 21:00:21,093 - CV - INFO - fold time: 4.297726392745972s (0.07162877321243286m)
+2023-09-02 21:00:21,093 - CV - INFO - ----- BEGINNING FOLD SET (025:9)----------------------------------------------------------
+2023-09-02 21:00:21,095 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/025/9
+2023-09-02 21:00:21,201 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:21,450 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 21:00:21,450 - CV - INFO - Begin OT Train
+2023-09-02 21:00:25,429 - CV - INFO - OT Train Complete, 30 epochs
+2023-09-02 21:00:25,462 - CV - INFO - fold time: 4.368741750717163s (0.07281236251195272m)
+2023-09-02 21:00:25,462 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 21:00:25,462 - CV - INFO - Mean OT Train Epochs 26.5:
+2023-09-02 21:00:25,462 - CV - INFO - Mean Val Macro F1 : 0.956525674154817
+2023-09-02 21:00:25,462 - CV - INFO - Mean Eval Stat : 0.956525674154817 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 21:00:25,462 - CV - INFO - set time: 43.66118502616882s (0.7276864171028137m)
+2023-09-02 21:00:25,462 - CV - INFO - script time so far: 1123.413442850113s (18.723557380835214m) (0.3120592896805869h)
+2023-09-02 21:00:25,462 - CV - INFO - ===== BEGINNING OPTION SET (026)==========================================================
+2023-09-02 21:00:25,462 - CV - INFO - 	done: False
+2023-09-02 21:00:25,462 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 21:00:25,462 - CV - INFO - 	h1: 64
+2023-09-02 21:00:25,462 - CV - INFO - 	h2: 32
+2023-09-02 21:00:25,462 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 21:00:25,462 - CV - INFO - 	dropout: 0.0
+2023-09-02 21:00:25,462 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 21:00:25,462 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 21:00:25,463 - CV - INFO - 	lambda: 0.05
+2023-09-02 21:00:25,463 - CV - INFO - 	theta: 30
+2023-09-02 21:00:25,463 - CV - INFO - 	clip: 5
+2023-09-02 21:00:25,463 - CV - INFO - ----- BEGINNING FOLD SET (026:0)----------------------------------------------------------
+2023-09-02 21:00:25,464 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/0
+2023-09-02 21:00:25,587 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:25,834 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 21:00:25,834 - CV - INFO - Begin OT Train
+2023-09-02 21:00:29,696 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 21:00:29,727 - CV - INFO - fold time: 4.264265775680542s (0.07107109626134236m)
+2023-09-02 21:00:29,727 - CV - INFO - ----- BEGINNING FOLD SET (026:1)----------------------------------------------------------
+2023-09-02 21:00:29,728 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/1
+2023-09-02 21:00:29,832 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:30,083 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 21:00:30,083 - CV - INFO - Begin OT Train
+2023-09-02 21:00:33,927 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 21:00:33,960 - CV - INFO - fold time: 4.232884407043457s (0.07054807345072428m)
+2023-09-02 21:00:33,960 - CV - INFO - ----- BEGINNING FOLD SET (026:2)----------------------------------------------------------
+2023-09-02 21:00:33,961 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/2
+2023-09-02 21:00:34,071 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:34,321 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 21:00:34,321 - CV - INFO - Begin OT Train
+2023-09-02 21:00:38,262 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 21:00:38,295 - CV - INFO - fold time: 4.334977149963379s (0.07224961916605631m)
+2023-09-02 21:00:38,295 - CV - INFO - ----- BEGINNING FOLD SET (026:3)----------------------------------------------------------
+2023-09-02 21:00:38,296 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/3
+2023-09-02 21:00:38,398 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:38,649 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 21:00:38,649 - CV - INFO - Begin OT Train
+2023-09-02 21:00:42,545 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 21:00:42,578 - CV - INFO - fold time: 4.283269643783569s (0.07138782739639282m)
+2023-09-02 21:00:42,578 - CV - INFO - ----- BEGINNING FOLD SET (026:4)----------------------------------------------------------
+2023-09-02 21:00:42,580 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/4
+2023-09-02 21:00:42,678 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:42,930 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 21:00:42,930 - CV - INFO - Begin OT Train
+2023-09-02 21:00:46,918 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 21:00:46,954 - CV - INFO - fold time: 4.37628698348999s (0.07293811639149984m)
+2023-09-02 21:00:46,954 - CV - INFO - ----- BEGINNING FOLD SET (026:5)----------------------------------------------------------
+2023-09-02 21:00:46,956 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/5
+2023-09-02 21:00:47,061 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:47,356 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 21:00:47,356 - CV - INFO - Begin OT Train
+2023-09-02 21:00:51,274 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 21:00:51,311 - CV - INFO - fold time: 4.357084274291992s (0.07261807123819987m)
+2023-09-02 21:00:51,311 - CV - INFO - ----- BEGINNING FOLD SET (026:6)----------------------------------------------------------
+2023-09-02 21:00:51,313 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/6
+2023-09-02 21:00:51,427 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:51,677 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 21:00:51,677 - CV - INFO - Begin OT Train
+2023-09-02 21:00:55,487 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 21:00:55,535 - CV - INFO - fold time: 4.2235493659973145s (0.07039248943328857m)
+2023-09-02 21:00:55,535 - CV - INFO - ----- BEGINNING FOLD SET (026:7)----------------------------------------------------------
+2023-09-02 21:00:55,537 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/7
+2023-09-02 21:00:55,650 - CV - INFO - Begin Pretrain
+2023-09-02 21:00:55,900 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 21:00:55,900 - CV - INFO - Begin OT Train
+2023-09-02 21:00:59,776 - CV - INFO - OT Train Complete, 35 epochs
+2023-09-02 21:00:59,821 - CV - INFO - fold time: 4.285893440246582s (0.07143155733744304m)
+2023-09-02 21:00:59,821 - CV - INFO - ----- BEGINNING FOLD SET (026:8)----------------------------------------------------------
+2023-09-02 21:00:59,823 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/8
+2023-09-02 21:00:59,918 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:00,191 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 21:01:00,191 - CV - INFO - Begin OT Train
+2023-09-02 21:01:04,021 - CV - INFO - OT Train Complete, 13 epochs
+2023-09-02 21:01:04,055 - CV - INFO - fold time: 4.233898878097534s (0.07056498130162557m)
+2023-09-02 21:01:04,055 - CV - INFO - ----- BEGINNING FOLD SET (026:9)----------------------------------------------------------
+2023-09-02 21:01:04,057 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/026/9
+2023-09-02 21:01:04,162 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:04,412 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 21:01:04,412 - CV - INFO - Begin OT Train
+2023-09-02 21:01:08,429 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 21:01:08,467 - CV - INFO - fold time: 4.412228345870972s (0.07353713909784952m)
+2023-09-02 21:01:08,467 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 21:01:08,467 - CV - INFO - Mean OT Train Epochs 11.2:
+2023-09-02 21:01:08,467 - CV - INFO - Mean Val Macro F1 : 0.8331062830952323
+2023-09-02 21:01:08,467 - CV - INFO - Mean Eval Stat : 0.8331062830952323 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 21:01:08,467 - CV - INFO - set time: 43.004897117614746s (0.7167482852935791m)
+2023-09-02 21:01:08,467 - CV - INFO - script time so far: 1166.4183809757233s (19.44030634959539m) (0.3240051058265898h)
+2023-09-02 21:01:08,467 - CV - INFO - ===== BEGINNING OPTION SET (027)==========================================================
+2023-09-02 21:01:08,467 - CV - INFO - 	done: False
+2023-09-02 21:01:08,467 - CV - INFO - 	learning_rate: 0.01
+2023-09-02 21:01:08,467 - CV - INFO - 	h1: 64
+2023-09-02 21:01:08,467 - CV - INFO - 	h2: 32
+2023-09-02 21:01:08,467 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 21:01:08,467 - CV - INFO - 	dropout: 0.0
+2023-09-02 21:01:08,467 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 21:01:08,467 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 21:01:08,467 - CV - INFO - 	lambda: 0.05
+2023-09-02 21:01:08,467 - CV - INFO - 	theta: 50
+2023-09-02 21:01:08,467 - CV - INFO - 	clip: 5
+2023-09-02 21:01:08,467 - CV - INFO - ----- BEGINNING FOLD SET (027:0)----------------------------------------------------------
+2023-09-02 21:01:08,469 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/0
+2023-09-02 21:01:08,592 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:08,839 - CV - INFO - Pretrain Complete, 28 epochs
+2023-09-02 21:01:08,839 - CV - INFO - Begin OT Train
+2023-09-02 21:01:12,771 - CV - INFO - OT Train Complete, 11 epochs
+2023-09-02 21:01:12,804 - CV - INFO - fold time: 4.336107969284058s (0.0722684661547343m)
+2023-09-02 21:01:12,804 - CV - INFO - ----- BEGINNING FOLD SET (027:1)----------------------------------------------------------
+2023-09-02 21:01:12,805 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/1
+2023-09-02 21:01:12,909 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:13,160 - CV - INFO - Pretrain Complete, 34 epochs
+2023-09-02 21:01:13,160 - CV - INFO - Begin OT Train
+2023-09-02 21:01:17,042 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 21:01:17,085 - CV - INFO - fold time: 4.2817957401275635s (0.0713632623354594m)
+2023-09-02 21:01:17,085 - CV - INFO - ----- BEGINNING FOLD SET (027:2)----------------------------------------------------------
+2023-09-02 21:01:17,087 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/2
+2023-09-02 21:01:17,197 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:17,447 - CV - INFO - Pretrain Complete, 58 epochs
+2023-09-02 21:01:17,447 - CV - INFO - Begin OT Train
+2023-09-02 21:01:21,235 - CV - INFO - OT Train Complete, 17 epochs
+2023-09-02 21:01:21,268 - CV - INFO - fold time: 4.182244777679443s (0.06970407962799072m)
+2023-09-02 21:01:21,268 - CV - INFO - ----- BEGINNING FOLD SET (027:3)----------------------------------------------------------
+2023-09-02 21:01:21,269 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/3
+2023-09-02 21:01:21,371 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:21,621 - CV - INFO - Pretrain Complete, 27 epochs
+2023-09-02 21:01:21,621 - CV - INFO - Begin OT Train
+2023-09-02 21:01:25,612 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 21:01:25,643 - CV - INFO - fold time: 4.374982118606567s (0.0729163686434428m)
+2023-09-02 21:01:25,643 - CV - INFO - ----- BEGINNING FOLD SET (027:4)----------------------------------------------------------
+2023-09-02 21:01:25,644 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/4
+2023-09-02 21:01:25,743 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:25,994 - CV - INFO - Pretrain Complete, 64 epochs
+2023-09-02 21:01:25,994 - CV - INFO - Begin OT Train
+2023-09-02 21:01:29,905 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 21:01:29,939 - CV - INFO - fold time: 4.296473026275635s (0.07160788377126058m)
+2023-09-02 21:01:29,939 - CV - INFO - ----- BEGINNING FOLD SET (027:5)----------------------------------------------------------
+2023-09-02 21:01:29,941 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/5
+2023-09-02 21:01:30,046 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:30,296 - CV - INFO - Pretrain Complete, 55 epochs
+2023-09-02 21:01:30,296 - CV - INFO - Begin OT Train
+2023-09-02 21:01:34,238 - CV - INFO - OT Train Complete, 6 epochs
+2023-09-02 21:01:34,274 - CV - INFO - fold time: 4.334493637084961s (0.07224156061808268m)
+2023-09-02 21:01:34,274 - CV - INFO - ----- BEGINNING FOLD SET (027:6)----------------------------------------------------------
+2023-09-02 21:01:34,275 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/6
+2023-09-02 21:01:34,390 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:34,639 - CV - INFO - Pretrain Complete, 73 epochs
+2023-09-02 21:01:34,639 - CV - INFO - Begin OT Train
+2023-09-02 21:01:38,515 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 21:01:38,549 - CV - INFO - fold time: 4.275402069091797s (0.07125670115152995m)
+2023-09-02 21:01:38,549 - CV - INFO - ----- BEGINNING FOLD SET (027:7)----------------------------------------------------------
+2023-09-02 21:01:38,551 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/7
+2023-09-02 21:01:38,664 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:38,915 - CV - INFO - Pretrain Complete, 20 epochs
+2023-09-02 21:01:38,915 - CV - INFO - Begin OT Train
+2023-09-02 21:01:42,743 - CV - INFO - OT Train Complete, 10 epochs
+2023-09-02 21:01:42,777 - CV - INFO - fold time: 4.227892637252808s (0.07046487728754679m)
+2023-09-02 21:01:42,777 - CV - INFO - ----- BEGINNING FOLD SET (027:8)----------------------------------------------------------
+2023-09-02 21:01:42,779 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/8
+2023-09-02 21:01:42,874 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:43,127 - CV - INFO - Pretrain Complete, 26 epochs
+2023-09-02 21:01:43,127 - CV - INFO - Begin OT Train
+2023-09-02 21:01:46,959 - CV - INFO - OT Train Complete, 7 epochs
+2023-09-02 21:01:46,992 - CV - INFO - fold time: 4.2145676612854s (0.07024279435475668m)
+2023-09-02 21:01:46,992 - CV - INFO - ----- BEGINNING FOLD SET (027:9)----------------------------------------------------------
+2023-09-02 21:01:46,993 - CV - INFO - Saving details to directory: 
+log/cv/None/abide_large/027/9
+2023-09-02 21:01:47,100 - CV - INFO - Begin Pretrain
+2023-09-02 21:01:47,385 - CV - INFO - Pretrain Complete, 25 epochs
+2023-09-02 21:01:47,386 - CV - INFO - Begin OT Train
+2023-09-02 21:01:51,277 - CV - INFO - OT Train Complete, 8 epochs
+2023-09-02 21:01:51,310 - CV - INFO - fold time: 4.318472862243652s (0.07197454770406088m)
+2023-09-02 21:01:51,310 - CV - INFO - Mean Pretrain Epochs 41.0:
+2023-09-02 21:01:51,310 - CV - INFO - Mean OT Train Epochs 9.1:
+2023-09-02 21:01:51,310 - CV - INFO - Mean Val Macro F1 : 0.3491007683535168
+2023-09-02 21:01:51,310 - CV - INFO - Mean Eval Stat : 0.3491007683535168 (harmoic mean of macro f1 and (1-eo))
+2023-09-02 21:01:51,310 - CV - INFO - set time: 42.84298753738403s (0.7140497922897339m)
+2023-09-02 21:01:51,310 - CV - INFO - script time so far: 1209.2614130973816s (20.15435688495636m) (0.335905948082606h)
+2023-09-02 21:01:51,310 - CV - INFO - ===== CROSS FOLD COMPLETE ================================================================
+2023-09-02 21:01:51,310 - CV - INFO - Best Eval Stat: 0.9589087702629799
+2023-09-02 21:01:51,310 - CV - INFO - Best Set: 
+2023-09-02 21:01:51,310 - CV - INFO - 	done: False
+2023-09-02 21:01:51,310 - CV - INFO - 	learning_rate: 0.005
+2023-09-02 21:01:51,310 - CV - INFO - 	h1: 64
+2023-09-02 21:01:51,310 - CV - INFO - 	h2: 32
+2023-09-02 21:01:51,310 - CV - INFO - 	weight_decay: 0.0005
+2023-09-02 21:01:51,310 - CV - INFO - 	dropout: 0.0
+2023-09-02 21:01:51,310 - CV - INFO - 	max_pretrain_epochs: 100
+2023-09-02 21:01:51,310 - CV - INFO - 	max_ot_epochs: 50
+2023-09-02 21:01:51,310 - CV - INFO - 	lambda: 0.01
+2023-09-02 21:01:51,311 - CV - INFO - 	theta: 10
+2023-09-02 21:01:51,311 - CV - INFO - 	clip: 5
+2023-09-02 21:01:51,311 - CV - INFO - 	mean_pe: 45.5
+2023-09-02 21:01:51,311 - CV - INFO - 	mean_ot: 17.4
+2023-09-02 21:01:51,311 - CV - INFO - 	mean_val_f1: 0.9589087702629799
+2023-09-02 21:01:51,311 - CV - INFO - 	mean_hmean: 0.9589087702629799
+2023-09-02 21:01:51,311 - CV - INFO - total script time: 1209.261641740799s (20.154360695679983m) (0.3359060115946664h)

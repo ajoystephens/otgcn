@@ -1,0 +1,86 @@
+2023-09-02 20:57:07,124 - FGO - INFO - ===== SETUP LOGGING ======================================================================
+2023-09-02 20:57:07,124 - FGO - INFO - THIS_FILE: Wrapper.py
+2023-09-02 20:57:07,124 - FGO - INFO - 	done: False
+2023-09-02 20:57:07,124 - FGO - INFO - 	learning_rate: 0.01
+2023-09-02 20:57:07,124 - FGO - INFO - 	h1: 64
+2023-09-02 20:57:07,124 - FGO - INFO - 	h2: 32
+2023-09-02 20:57:07,124 - FGO - INFO - 	weight_decay: 0.0005
+2023-09-02 20:57:07,124 - FGO - INFO - 	dropout: 0.0
+2023-09-02 20:57:07,124 - FGO - INFO - 	max_pretrain_epochs: 100
+2023-09-02 20:57:07,124 - FGO - INFO - 	max_ot_epochs: 50
+2023-09-02 20:57:07,124 - FGO - INFO - 	lambda: 0.01
+2023-09-02 20:57:07,124 - FGO - INFO - 	theta: 50
+2023-09-02 20:57:07,124 - FGO - INFO - 	clip: 5
+2023-09-02 20:57:07,124 - FGO - INFO - ===== SETUP LOGGING COMPLETE =============================================================
+2023-09-02 20:57:07,124 - FGO - INFO - ===== Configuring Masks ==================================================================
+2023-09-02 20:57:07,124 - FGO - INFO - Source Total: 726
+2023-09-02 20:57:07,124 - FGO - INFO - Target Total: 78
+2023-09-02 20:57:07,124 - FGO - INFO - Train Total: 726
+2023-09-02 20:57:07,124 - FGO - INFO - Val Total:   78
+2023-09-02 20:57:07,124 - FGO - INFO - Test Total:  78
+2023-09-02 20:57:07,124 - FGO - INFO - ===== Preparing to load data =============================================================
+2023-09-02 20:57:07,124 - FGO - INFO - SOURCE: abide_large
+2023-09-02 20:57:07,124 - FGO - INFO - ===== Retrieving SOURCE Data =============================================================
+2023-09-02 20:57:07,124 - FGO - INFO - *************** In load_graph_data ***************
+2023-09-02 20:57:07,124 - FGO - INFO - 	FILEPATH: ./data/abide_large.mat
+2023-09-02 20:57:07,125 - FGO - INFO - 	X shape: (804, 93)
+2023-09-02 20:57:07,125 - FGO - INFO - 	A shape: (804, 804)
+2023-09-02 20:57:07,125 - FGO - INFO - 	P shape: (804,)
+2023-09-02 20:57:07,125 - FGO - INFO - 	Y shape: (804, 2)
+2023-09-02 20:57:07,125 - FGO - INFO - 	Y sum: 804 (number of postive labels)
+2023-09-02 20:57:07,126 - FGO - INFO - ===== Preparing data =====================================================================
+2023-09-02 20:57:07,127 - FGO - INFO - ===== Disconnecting Source and Target ====================================================
+2023-09-02 20:57:07,225 - FGO - INFO - ===== Finalize Data ======================================================================
+2023-09-02 20:57:07,225 - FGO - INFO - A shape: (804, 804)
+2023-09-02 20:57:07,225 - FGO - INFO - X shape: (804, 93)
+2023-09-02 20:57:07,225 - FGO - INFO - Y shape: (804, 2)
+2023-09-02 20:57:07,225 - FGO - INFO - N: 804
+2023-09-02 20:57:07,225 - FGO - INFO - N_s: 726
+2023-09-02 20:57:07,225 - FGO - INFO - N_t: 78
+2023-09-02 20:57:07,229 - FGO - INFO - ===== Pretrain GCN Model =================================================================
+2023-09-02 20:57:07,232 - FGO - INFO - Epoch   0 | Train Loss: 0.684 | Val Loss: 0.73 | Val F1: 0.32 |
+2023-09-02 20:57:07,257 - FGO - INFO - Epoch  10 | Train Loss: 0.515 | Val Loss: 0.52 | Val F1: 0.82 |
+2023-09-02 20:57:07,282 - FGO - INFO - Epoch  20 | Train Loss: 0.158 | Val Loss: 0.28 | Val F1: 0.92 |
+2023-09-02 20:57:07,306 - FGO - INFO - Epoch  30 | Train Loss: 0.106 | Val Loss: 0.27 | Val F1: 0.92 |
+2023-09-02 20:57:07,330 - FGO - INFO - Epoch  40 | Train Loss: 0.085 | Val Loss: 0.13 | Val F1: 0.95 |
+2023-09-02 20:57:07,355 - FGO - INFO - Epoch  50 | Train Loss: 0.077 | Val Loss: 0.11 | Val F1: 0.95 |
+2023-09-02 20:57:07,379 - FGO - INFO - Epoch  60 | Train Loss: 0.071 | Val Loss: 0.09 | Val F1: 0.95 |
+2023-09-02 20:57:07,404 - FGO - INFO - Epoch  70 | Train Loss: 0.074 | Val Loss: 0.12 | Val F1: 0.96 |
+2023-09-02 20:57:07,428 - FGO - INFO - Epoch  80 | Train Loss: 0.069 | Val Loss: 0.07 | Val F1: 0.95 |
+2023-09-02 20:57:07,453 - FGO - INFO - Epoch  90 | Train Loss: 0.064 | Val Loss: 0.10 | Val F1: 0.95 |
+2023-09-02 20:57:07,477 - FGO - INFO - Epoch 100 | Train Loss: 0.062 | Val Loss: 0.10 | Val F1: 0.95 |
+2023-09-02 20:57:07,477 - FGO - INFO - Best Epoch:  55 | Train Loss: 0.077 | Val Loss: 0.09 | Val F1: 0.97 
+2023-09-02 20:57:07,477 - FGO - INFO - Setting model to best state.
+2023-09-02 20:57:07,478 - FGO - INFO - ===== Train Fair OT GCN Model ============================================================
+2023-09-02 20:57:07,589 - FGO - WARNING - long running sinkhorn (1000), u_diff: 1.2000842275483592e-07
+2023-09-02 20:57:07,677 - FGO - WARNING - long running sinkhorn (2000), u_diff: 1.220751641994866e-07
+2023-09-02 20:57:07,764 - FGO - WARNING - long running sinkhorn (3000), u_diff: 1.2252235137566458e-07
+2023-09-02 20:57:07,853 - FGO - WARNING - long running sinkhorn (4000), u_diff: 1.285722106558751e-07
+2023-09-02 20:57:07,940 - FGO - WARNING - long running sinkhorn (5000), u_diff: 1.2614884781214641e-07
+2023-09-02 20:57:08,028 - FGO - WARNING - long running sinkhorn (6000), u_diff: 1.1975842539868609e-07
+2023-09-02 20:57:08,115 - FGO - WARNING - long running sinkhorn (7000), u_diff: 1.301411032272881e-07
+2023-09-02 20:57:08,203 - FGO - WARNING - long running sinkhorn (8000), u_diff: 1.2122733039632294e-07
+2023-09-02 20:57:08,290 - FGO - WARNING - long running sinkhorn (9000), u_diff: 1.3027370471263566e-07
+2023-09-02 20:57:08,378 - FGO - WARNING - long running sinkhorn (10000), u_diff: 1.240372000665957e-07
+2023-09-02 20:57:08,378 - FGO - WARNING - large sinkhorn itter (10000)
+2023-09-02 20:57:08,887 - FGO - INFO - Epoch   0 | Train Loss: -2.823 | Val Loss: -0.24 | Val F1: 0.95 |
+2023-09-02 20:57:09,855 - FGO - INFO - Epoch  10 | Train Loss: -4.013 | Val Loss: -0.04 | Val F1: 0.81 |
+2023-09-02 20:57:10,613 - FGO - INFO - Epoch  20 | Train Loss: -4.220 | Val Loss: -0.15 | Val F1: 0.91 |
+2023-09-02 20:57:11,458 - FGO - INFO - Epoch  30 | Train Loss: -4.372 | Val Loss: -0.19 | Val F1: 0.91 |
+2023-09-02 20:57:12,242 - FGO - INFO - Epoch  40 | Train Loss: -4.433 | Val Loss: -0.21 | Val F1: 0.92 |
+2023-09-02 20:57:12,983 - FGO - INFO - Best Epoch:   6 | Train Loss: -3.736 | Val Loss: -0.27 | Val F1: 0.95 |
+2023-09-02 20:57:12,983 - FGO - INFO - Setting model to best state.
+2023-09-02 20:57:12,987 - FGO - INFO - ===== Test Fair OT GCN Model =============================================================
+2023-09-02 20:57:13,012 - FGO - INFO - Train CM:
+[[396   4]
+ [ 25 301]]
+2023-09-02 20:57:13,012 - FGO - INFO - Val CM:
+[[34  0]
+ [ 6 38]]
+2023-09-02 20:57:13,013 - FGO - INFO - Test CM:
+[[34  0]
+ [ 6 38]]
+2023-09-02 20:57:13,018 - FGO - INFO - test statistical parity: 0.07729468599033817
+2023-09-02 20:57:13,019 - FGO - INFO - test equal opportunity: 0.15384615384615385
+2023-09-02 20:57:13,020 - FGO - INFO - test micro f1: 0.9230769230769231
+2023-09-02 20:57:13,020 - FGO - INFO - test macro f1: 0.9228740936058009
